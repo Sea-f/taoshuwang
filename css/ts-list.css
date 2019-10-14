@@ -1,0 +1,671 @@
+
+#sub-catalog dl dd a 
+{
+	background:url('../img/bg-line.png') 0 -6px no-repeat;
+    overflow:hidden;   
+    padding-left:10px;
+    padding-bottom:1px;
+    margin: 0 8px;
+}
+#sub-catalog {
+    border-color: #d8d8d8;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-top: 35px;
+    position: relative;
+    width:220px;
+    
+}
+#sub-catalog dl dt {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 12px;
+    padding-top: 9px;
+}
+
+#sub-catalog dl dd 
+{
+	border-bottom: 1px solid #E5E5E5;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 17px;    
+}
+#sub-catalog dl dt a {
+    color: #546f60;
+}
+
+.advsearch
+{
+    overflow: hidden;
+    width: 220px;
+    border: 1px solid #d8d8d8;
+    margin-top:10px;
+}
+.advsearch .field{overflow:hidden;clear:both;margin: 0 auto 5px;}
+.advsearch .field .hd{float:left;width:68px;text-align:right;margin-top:8px;}
+.advsearch .field .hd .label{display:inline;}
+.advsearch .field .bd{padding:0 10px 0 71px;}
+.advsearch .field .bd .cell{text-align:left;}
+.advsearch .field .text,.advsearch .field .select,.advsearch .field .price{width:105px;height:20px;line-height:20px;border:1px solid #ccc;margin-top:8px;}
+.advsearch .field .price{width:42px;}
+.advsearch .field .submit{margin:10px 0;text-align:center;}
+.advsearch .cell{float:left;display:inline;}
+
+
+.tuijian {width:945px;height:110px; margin-top:10px;border: 1px solid #d8d8d8;overflow: hidden;position:relative;} 
+.tuijian .bar{width:45px;
+    height:46px;
+    cursor: pointer;
+    background:url(../img/bg.png) 0 -330px no-repeat;
+    display:block;
+    position:absolute;
+    left:0px;}
+    
+.tuijian a.prev,.tuijian a.next ,.tuijian a.prev:hover,.tuijian a.next:hover{  
+    width:13px;
+    height:63px;
+    cursor: pointer;
+    background:url(../img/bg.png) 0 0 no-repeat;
+    display:block;
+    position:absolute;
+    top:47px;
+}
+
+.tuijian a.prev
+{
+	left:0px;
+	background-position: -13px -440px;
+}
+.tuijian a.next 
+{	   
+	left:931px;
+	top:0px;
+	height:110px;
+    background-position: -39px -392px;
+	
+}
+.tuijian a.prev:hover
+{   
+	left:0px;
+     background-position: 0 -440px;
+}
+.tuijian a.next:hover  
+{	
+   left:931px;
+	top:0px;
+	height:110px;
+     background-position: -26px -392px;
+}
+.scroller     
+{
+	position: relative;
+    width: 860px;
+    margin: auto;
+    padding-top:3px;
+    overflow: hidden;
+    height:107px;
+}
+
+.scroller .book-ul
+{
+	padding: 0;
+}
+.scroller .book-ul li.selected {
+   background: none;
+   height: 100px;   
+   float: left;
+}
+
+.scroller .book-ul li.selected .tbook-info {  
+    padding: 4px 2px 0 2px;
+    width: 110px;
+}
+
+.scroller .book-ul li .tbook-name {
+  height:40px;
+}
+
+ .scroller .ks-switchable-nav {
+        display: none;
+    }
+
+
+
+
+.rank {
+    border-bottom: 2px solid #EBEBEB;
+    border-top: 2px solid #EBEBEB;
+    height: 27px;
+    padding-left: 10px;
+    padding-top: 9px;
+    margin-top:10px;
+}
+.rank a {
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    color: #363636;
+    display: block;
+    float: left;
+    height: 19px;
+    line-height: 19px;
+}
+.rank a.sort {
+    background-position: 0 0;
+    width: 47px;
+}
+.rank a.correlation {
+    background-position: -47px 0;
+    width: 49px;
+}
+.rank a.correlation:hover, .rank a.correlation-current {
+    background-position: -47px -23px;
+    width: 49px;
+}
+
+.rank a.sales {
+    background-position: -96px 0;
+    width: 48px;
+}
+.rank a.sales:hover, .rank a.sales-current {
+    background-position: -95px -23px;
+    margin-left: -1px;
+    width: 49px;
+}
+.rank a.prices {
+    background-position: -144px 0;
+    width: 47px;
+}
+.rank a.prices:hover, .rank a.prices-current {
+    background-position: -143px -23px;
+    margin-left: -1px;
+    width: 48px;
+}
+
+.rank a.prices-current1 {
+    background-position: -143px -46px;
+    margin-left: -1px;
+    width: 48px;
+}
+
+.rank a.discount {
+    background-position: -191px 0;
+    width: 47px;
+}
+.rank a.discount:hover, .rank a.discount-current {
+    background-position: -190px -23px;
+    margin-left: -1px;
+    width: 48px;
+}
+
+.rank a.discount-current1 {
+    background-position: -190px -46px;
+    margin-left: -1px;
+    width: 48px;
+}
+
+.rank a.times {
+    background-position: -238px 0;
+    width: 73px;
+}
+.rank a.times:hover, .rank a.times-current {
+    background-position: -237px -23px;
+    margin-left: -1px;
+    width: 74px;
+}
+.rank a.times-current1 {
+    background-position: -237px -46px;
+    margin-left: -1px;
+    width: 74px;
+}
+
+
+.rank_l {
+    float: left;
+    padding-left: 15px;
+    width: 200px;
+}
+.rank_l input {
+    vertical-align: middle;    
+}
+.rank_l label {
+    padding: 0 10px 0 5px;
+    vertical-align: middle;
+}
+.rank_r {
+    float: right;
+    padding-right: 15px;
+}
+
+.rsearch
+{
+	margin-top:0;
+	}
+
+.info {   
+    height: 23px;
+    line-height: 23px;
+    padding-left: 10px;
+    margin-top:10px;
+    width: 761px;
+}
+.info strong {   
+    color: #FF4A00;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.info .tip {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info_l {
+    float: left;
+    padding-left: 15px;
+}
+.info_r {
+    float: right;
+    padding-right: 15px;
+    width: 143px;
+}
+
+.infos {   
+    height: 23px;
+    line-height: 23px;
+    padding-left: 10px;
+    margin-top:10px;
+    width: 1250px;
+}
+.infos strong {   
+    color: #FF4A00;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.infos .tip {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#book-list{margin-top:10px;}
+
+.single-bar {
+    border-bottom: 1px solid #E2E2E2;   
+    padding: 18px 8px 10px 8px;
+    height:100%; 
+    overflow:auto;
+}
+.single-bar ul li {
+    float: left;
+    overflow: hidden;
+}
+.s-book-rank
+{
+	padding-right: 4px;
+    width: 36px;
+}
+.book_star_index {
+    background: url("../img/bg_star_level_r.gif") no-repeat scroll right 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font: bold 14px/20px Arial;
+    height: 30px;
+    margin-left: 1px;
+    padding-right: 5px;
+}
+.book_star_index span {
+    background: url("../img/bg_star_level_l.gif") no-repeat scroll left 0 transparent;
+    display: inline-block;
+    height: 30px;
+    padding-left: 5px;
+}
+.s-book-img {
+    padding-right: 10px;
+    width: 130px;
+}
+.s-book-info {
+    padding-right: 10px;
+    padding-top: 4px;
+    width: 620px;
+}
+.s-book-info .s-book-name {
+    line-height: 22px;
+    padding-bottom: 4px;
+}
+.s-book-infos {
+    padding-right: 10px;
+    padding-top: 4px;
+    width: 920px;
+}
+.s-book-infos .s-book-name {
+    line-height: 22px;
+    padding-bottom: 4px;
+}
+.s-book-name {
+    line-height: 20px;
+}
+.s-book-name em {
+    color:#ff4a00;
+}
+.s-book-name a {
+    color: #546f60;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.s-book-name a:hover {
+    text-decoration: underline;
+}
+
+.authors {
+    line-height: 25px;
+}
+.authors em {
+    color:#ff4a00;
+}
+.authors em a {
+    color:#ff4a00;
+}
+.summary {
+    color: #9D9D9D;    
+    line-height: 22px;
+}
+
+.legend {   
+   
+    text-align: center;
+    width: 110px;
+}
+.sell-total {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.sell-total span {
+    color: #FF9000;
+}
+.legend a {
+    margin: 5px auto 0;
+}
+
+
+.maincenter{    
+    margin: 0 auto;
+    padding: 40px 0 30px;
+    width: 950px;
+}
+
+.form .field{overflow:hidden;clear:both;width:590px;margin-bottom:20px;margin: 0 auto 10px;}
+.form .field .hd{float:left;width:100px;text-align:right;font-size:14px;margin-top:3px;}
+.form .field .hd .required{display:inline;color:#f30;}
+.form .field .hd .label{display:inline;}
+
+.form .field .bd{padding:0 10px 0 106px;}
+.form .field .bd .cell{text-align:left;font-size:14px;}
+
+.form .field .text,.form .field .select,.form .field .price{width:280px;height:24px;line-height:24px;border:1px solid #ccc;margin-top:3px;}
+.form .field .price{width:128px;}
+
+.form .field .text-focus,.form .field .password-focus,.form .field .price-focus{width:280px;height:24px;line-height:24px;border:1px solid #aeac87;margin-top:3px;}
+.form .field .price-focus{width:128px;}
+
+.form .button-box{margin:8px 0;padding-top:8px;text-align:center;}
+
+.form .cell{float:left;display:inline;margin-right:10px;}
+
+.form button.btn-search, .form button.btn-search:hover{
+    background: url("../img/bg-btn.png") no-repeat scroll  0 -316px transparent;  
+    display: block;  
+    height: 36px;
+    width:131px;   
+    border: 0 none;
+    cursor: pointer;
+}
+.form  button.btn-search:hover{background-position: -131px -316px;}
+
+
+/* 清除浮动 */
+.ks-clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.ks-clearfix { *zoom: 1; }
+.hidden {display:none;}
+
+/*--日历--*/
+.ks-cal-call {background:white;height:auto;border:1px solid #9bc0e0;font-size:12px;font-family:Tahoma;}
+.ks-cal-call.multi-1 {width:189px !important;}
+.ks-cal-call.multi-2 {width:380px !important;_width:373px}
+.ks-cal-call.multi-3 {width:568px !important;_width:560px}
+
+.ks-cal-call {
+    -moz-box-shadow: 2px 2px 0px #ccc;
+    -webkit-box-shadow: 2px 2px 0px #ccc;
+    -khtml-box-shadow: 2px 2px 0px #ccc;
+    -ms-box-shadow: 2px 2px 0px #ccc;
+    filter: progid:DXImageTransform.Microsoft.Shadow(direction = 155, Color = #dadada, Strength = 3), progid:DXImageTransform.Microsoft.DropShadow(Color = #22aaaaaa, OffX = 0, OffY = 0);    
+}
+
+.ks-cal-call .ks-cal-box {margin:4px;_margin:4px 2px;height:auto;width:auto;float:left;*padding-bottom:5px;_padding-bottom:3px;position:relative;}
+.ks-cal-call .ks-cal-hd {background:url('http://img04.taobaocdn.com/tps/i4/T1aqNrXbFvXXXXXXXX-10-100.gif') repeat-x 0 -41px; width:181px;height:24px;background-color:#40a6ff;position:relative;}
+.ks-cal-call .ks-cal-hd a {}
+.ks-cal-call .ks-cal-hd a.ks-prev {overflow:hidden;text-indent:-100em;background:url('http://img04.taobaocdn.com/tps/i4/T1aqNrXbFvXXXXXXXX-10-100.gif') no-repeat 0 4px; height:1;width:10px;float:left;position:absolute;left:3px;top:3px;/*background-color:red;*/font-size:10px;text-decoration:none;color:white;}
+.ks-cal-call .ks-cal-hd a.ks-next {overflow:hidden;text-indent:-100em;background:url('http://img04.taobaocdn.com/tps/i4/T1aqNrXbFvXXXXXXXX-10-100.gif') no-repeat 0 -15px; height:1;width:10px;position:absolute;right:3px;top:3px;/*background-color:red;*/font-size:10px;text-decoration:none;color:white;}
+
+.ks-cal-call .ks-cal-hd a.ks-title,
+.ks-cal-call .ks-cal-hd a.ks-title:link,
+.ks-cal-call .ks-cal-hd a.ks-title:visited {color:white;text-decoration:none;position:relative;margin-left:auto;margin-right:auto;width:77px;height:17px;line-height:17px;display:block;top:3px;text-align:center;}
+.ks-cal-call .ks-cal-hd a.ks-title:hover {border:1px solid #8cc6ff;top:2px;color:#f0ff00;background:url('http://img04.taobaocdn.com/tps/i4/T1aqNrXbFvXXXXXXXX-10-100.gif') repeat-x 0 -75px;}
+
+
+.ks-cal-call .ks-cal-bd {width:181px;}
+.ks-cal-call .ks-cal-bd .ks-whd {width:auto;height:19px;overflow:hidden;background-color:#cce7ff;margin-top:4px;*padding-left:2px;*width:179px;}
+.ks-cal-call .ks-cal-bd .ks-whd span {float:left;width:25.857px;text-align:center;line-height:19px;}
+
+/*--hack for ff2 {{ --*/
+.ks-cal-call .ks-cal-bd .ks-whd span, x:-moz-any-link {width:25px;}
+.ks-cal-call .ks-cal-bd .ks-whd span, x:-moz-any-link, x:default {width:25.857px;}
+/*--hack for ff2 }} --*/
+
+.ks-cal-call .ks-cal-bd .ks-dbd {width:181px;height:auto;background-color:white;margin-top:4px;*padding-left:2px;*width:179px;}
+.ks-cal-call .ks-cal-bd .ks-dbd a,
+.ks-cal-call .ks-cal-bd .ks-dbd a:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a:visited {color:#004499;float:left;width:25.857px;text-align:center;line-height:22px;text-decoration:none;}
+.ks-cal-call .ks-cal-bd .ks-dbd a:hover {background-color:#ebf4fc;}
+
+/*--hack for ff2 {{ --*/
+.ks-cal-call .ks-cal-bd .ks-dbd a, x:-moz-any-link {width:25px;}
+.ks-cal-call .ks-cal-bd .ks-dbd a:link, x:-moz-any-link {width:25px;}
+.ks-cal-call .ks-cal-bd .ks-dbd a:visited, x:-moz-any-link {width:25px;}
+.ks-cal-call .ks-cal-bd .ks-dbd a,
+.ks-cal-call .ks-cal-bd .ks-dbd a:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a:visited, x:-moz-any-link, x:default {width:25.857px;}
+/*--hack for ff2 }} --*/
+
+/*--日期的状态--*/
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-null,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-null:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-null:visited {background:white;color:white;cursor:default;}
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-today,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-today:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-today:visited {color:#ff6600;font-weight:bold;}
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-selected,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-selected:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-selected:visited {background-color:#cce7ff;}
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-disabled,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-disabled:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-disabled:visited{color:#8c8c8c;cursor:default;background-color:white;}
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-range,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-range:link,
+.ks-cal-call .ks-cal-bd .ks-dbd a.ks-range:visited {background-color:#cce7ff;}
+
+.ks-cal-call .ks-cal-ft {text-align:center;width:181px;}
+
+/*--时间控件--*/
+.ks-cal-call .ks-cal-ft .ks-cal-time {background-color:#e5e5e5;display:inline-block;*display:inline;*zoom:1;padding:3px 5px;*padding:2px 5px;_padding:3px 5px;width:95px;position:relative;padding-right:18px;*top:-2px;_top:-1px;}
+.ks-cal-time .cta {width:13px;height:20px;position:absolute;right:0;top:0;line-height:0;}
+/*hack for Opera*/
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){
+	head~body .ks-cal-call .ks-cal-ft .ks-cal-time {padding:2px 5px 2px 0px;display:block;float:left;width:110px;margin-left:13px;}
+	head~body .ks-cal-call .ks-cal-ft .ct-ok {margin-left:0px;}
+	head~body .ks-cal-time .cta{}
+}
+.ks-cal-time button {width:13px;height:10px;border:0;overflow:hidden;/*text-indent:-100em;*/background:url("http://img05.taobaocdn.com/tps/i5/T1McxAXXRHXXXXXXXX-29-10.gif") no-repeat;cursor:pointer;}
+.ks-cal-time button.u {background-position:0 0;}
+.ks-cal-time button.d {background-position:-16px 0;}
+.ks-cal-time span {cursor:pointer;}
+.ks-cal-time span.on {padding:0 1px;background-color:#333;color:white}
+
+/*--时间列表--*/
+.ks-cal-timelist {position:absolute;height:auto;width:auto;_width:205px;border:1px solid #9bc0e0;background-color:#f2f2f2;z-index:100;}
+.ks-cal-timelist ul {width:50px;border-left:1px solid #9bc0e0;float:left;list-style:none;padding:0px;margin:5px 0px;}
+.ks-cal-timelist ul.first {border:0px !important;}
+.ks-cal-timelist ul li {text-align:center;float:left;width:100%;}
+
+.ks-cal-timelist ul li a,
+.ks-cal-timelist ul li a:link,
+.ks-cal-timelist ul li a:visited {line-height:18px;text-decoration:none;color:black;}
+.ks-cal-timelist ul li a:hover {background-color:#cce7f2;color:#004499;}
+
+/*--选择月份容器--*/
+.ks-setime {position:absolute;left:0px;top:28px;right:0px;width:180px;background:#f2f2f2;border:1px solid #9bc0e0;text-align:center;vertical-align:middle;height:auto;padding-top:10px;padding-bottom:10px;}
+.ks-setime p {height:30px;margin:0;padding:0;}
+.ks-setime select,.ks-setime input {width:80px;}
+
+/*--选择时间的容器--*/
+.ks-selectime {position:absolute;left:0px;bottom:28px;*bottom:32px;right:0px;width:180px;background:#f2f2f2;border:1px solid #9bc0e0;text-align:center;vertical-align:middle;height:auto;padding-top:10px;padding-bottom:10px;}
+.ks-selectime a,
+.ks-selectime a:link,
+.ks-selectime a:visited {margin-left:10px;display:inline-block;*display:inline;float:left;text-decoration:none;color:#004499;}
+.ks-selectime a:hover {text-decoration:underline;}
+.ks-selectime a.x {position:absolute;right:3px;bottom:2px;font-weight:bold;font-family:"comic Sans MS"}
+.ks-selectime select,.ks-selectime input {width:80px;}
+
+/*--日历选择组件--*/
+.ks-select-calendar{width:128px;height:24px;*width:122px;*height:22px;_width:124px;margin-top:3px;border:1px solid #ccc;background:url(http://img03.taobaocdn.com/tps/i3/T1cJ4PXfXGXXXXXXXX-16-13.gif) no-repeat 106px 4px;}
+.lot-calendar{position:absolute;top:0px;left:222px;z-index:100;}
+.ks-select-calendar1{width:105px;height:20px;*width:103px;*height:20px;_width:101px;margin-top:8px;border:1px solid #ccc;background:url(http://img03.taobaocdn.com/tps/i3/T1cJ4PXfXGXXXXXXXX-16-13.gif) no-repeat 80px 4px;}
+
+/*cart*/
+.ts-cart-info, .ts-cart-error, .ts-cart-Prompt, .ts-close, .ts-action-hint .ts-long-btn,.ts-action-hint .ts-long-btn1 {
+    background: url("../img/cartbg.png") no-repeat scroll 0 0 transparent;
+}
+.ts-cart-info {
+    background-color: #F0FFE5;
+    background-position: -132px 18px;
+    border: 1px solid #4DBF00;
+    color: #404040;
+    min-height: 112px;
+    height: 112px;
+    /*position: absolute;
+    right: -6px;
+    top: 0px;*/
+    width: 363px;
+    z-index: 99999;
+}
+.ts-cart-Prompt {
+    background-color: #FFF0F0;
+    background-position: -132px -175px;
+    border:1px solid #cd7405;
+    color: #404040;
+    min-height: 112px;
+    height: 112px;
+    /*position: absolute;
+    right: -6px;
+    top: 0px;*/
+    width: 363px;
+    z-index: 99999;
+}
+.ts-cart-error {
+    background-color: #FFF0F0;
+    background-position: -132px -78px;
+    border:1px solid #FF7575;
+    color: #404040;
+    min-height: 112px;
+    height: 112px;
+    /*position: absolute;
+    right: -6px;
+    top: 0px;*/
+    width: 363px;
+    z-index: 99999;
+}
+
+.ts-action-hint {
+    margin-left: 60px;
+}
+.ts-action-hint h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.ts-action-hint p {
+    margin: 8px 0 10px;
+    color:#404040;
+}
+.ts-action-hint em {
+    color:#FF4A00;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.ts-action-hint strong {
+    margin: 0 5px;
+}
+.ts-action-hint .ts-price {
+    font-size: 16px;
+    color:#FF4A00;
+}
+.ts-action-hint .ts-skin {
+    margin-right: 25px;
+    padding: 0;
+}
+
+.ts-action-hint .ts-skin, .ts-key:hover .ts-action-hint .ts-skin, .ts-key-hover .ts-action-hint .ts-skin {
+    background: none repeat scroll 0 0 transparent;
+}
+.ts-action-hint .ts-long-btn,.ts-action-hint .ts-long-btn1 {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 100px;
+}
+
+ .ts-action-hint .ts-long-btn:hover, .ts-action-hint .ts-long-btn1:hover {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+ .ts-action-hint .ts-long-btn1
+ {
+ 	 background-position: 0 -100px;
+ 	}
+
+.ts-close {
+    background-position: 0 -35px;
+    color: #999999;
+    height: 15px;
+    position: absolute;
+    right: -20px;
+    text-align: right;
+    top: 5px;
+    width: 45px;
+}
+.ts-close:hover {
+    color: #999999;
+    text-decoration: none;
+}
+.ts-close:focus {
+    outline: medium none;
+}
+.ts-close span {
+    display: none;
+}
