@@ -1,0 +1,121 @@
+body {
+  background: #ffffffs;
+}
+#page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0;
+}
+#page header {
+  width: 950px;
+  height: 94px;
+  margin: 0 auto;
+  padding: 20px 0 0 60px;
+}
+#page section {
+  width: 950px;
+  height: 400px;
+  background: url(../img/login_bg.jpg) no-repeat;
+  margin: 0 auto;
+}
+#page section #login_main {
+  width: 330px;
+  height: 300px;
+  background: #fcfcfc;
+  float: right;
+  border-radius: 5px;
+  margin-right: 150px;
+  overflow: hidden;
+  border: 1px solid #cacaca;
+  box-shadow: darkgrey 0px 0px 5px 5px;
+}
+#page section #login_main span {
+  display: inline-block;
+  width: 165px;
+  height: 40px;
+  text-align: center;
+}
+#page section #login_main .ipt1 {
+  font-size: 14px;
+  padding-top: 20px;
+  width: 231px;
+  margin: 0 auto;
+  color: #546f60;
+}
+#page section #login_main .ipt1 input {
+  height: 25px;
+  margin-left: 10px;
+}
+#page section #login_main > button {
+  width: 165px;
+  height: 40px;
+  border-top: none;
+  border-right: none;
+  color: #999999;
+  background: url(../img/login-input-bg_03.jpg);
+  background-size: 100%;
+}
+#page section #login_main .login-button {
+  width: 330px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 15px;
+}
+#page section #login_main .login-button button {
+  background: #d27c54;
+  width: 90px;
+  height: 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#page section #login_main .login-button > a {
+  font-size: 12px;
+  margin-left: 7px;
+  color: #757575;
+}
+#page section #login_main .teamwork {
+  width: 264px;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+  margin: 10px auto;
+  font-size: 12px;
+}
+#page section #login_main .teamwork z,
+#page section #login_main .teamwork wb {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-left: 20px;
+}
+#page section #login_main .teamwork z {
+  background: url(../img/zfb-tubiao_03.jpg) no-repeat;
+}
+#page section #login_main .teamwork wb {
+  background: url(../img/zfb-tubiao_03.jpg) no-repeat;
+}
+#page section #login_main .teamwork a {
+  color: #757575;
+}
+#page footer {
+  width: 950px;
+  border-top: 1px solid  #e8e5de;
+  margin: 10px auto;
+  text-align: center;
+  overflow: hidden;
+}
+#page footer a {
+  font-size: 12px;
+  color: #757575;
+  margin: 0 7px;
+}
+#page footer > div {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #757575;
+}
