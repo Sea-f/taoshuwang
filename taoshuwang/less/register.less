@@ -1,5 +1,5 @@
 @w :1200px;
-#logo{
+#register-body{
         display: block;
         width: @w;
         height: 100px;
@@ -32,23 +32,48 @@
         }
         #register-main{
             width: @w;
-            height: 560px;
-            background: goldenrod;
+            height: 520px;
+            position: relative;
+/*             background: goldenrod; */
+
+            aside{
+                    position: absolute;
+                    right: 0;
+                    top: 50px;
+                }
             main{
+
                 width: 670px;
                 height: 100%;
-                background: greenyellow;
+/*                 background: greenyellow; */
                 overflow: hidden;
+                
+                
                 div{
-                    width: 100%;
+                    box-sizing: border-box;
+                    width: 99%;
                     height: 40px;
-                    background: rgb(255,245,204);
+                    /* background: rgb(255,245,204); */
                     margin-top: 20px;
-                    border: 1px solid rgb(215,194,172);
+                    /* border: 1px solid rgb(215,194,172); */
                     input{
                         margin: 5px auto;
+                        height: 26px;
+                        outline:none;
+                        width: 170px;
+                        box-sizing: border-box;
+                    }
+                    canvas{
+                        position: relative;
+                        top: 8px;
+                        width: 86px;
                         height: 24px;
                     }
+                   #code{
+                       display: inline-block;
+                       vertical-align: middle;
+                       width: 85px;
+                   }
                     label{
                         display: inline-block;
                         text-align: right;
@@ -57,12 +82,14 @@
                         font-size: 14px;
                         color: #333333;
                     }
-                    span{
+                    >span{
                         background: #fff2f2;
                         border:1px solid #ff8080;
                         padding: 3px 15px 3px 3px;
                         font-size: 12px;
                         margin-left: 5px;
+                        display: none;
+                        
                         n{
                             display: inline-block;
                             width: 14px;
@@ -70,16 +97,49 @@
                             background: url(../img/no!_05.jpg)no-repeat;
                             background-size: 100%;
                             vertical-align: middle;
-                            
-                            
-
                         }
                     }
                 }
                 button{
                     width: 130px;
                     height: 36px;
+                    margin: 30px 0 0 105px;
+                    background: rgb(214,126,85);
+                    /* background: rgb(174,102,69); */
+                    border: none;
+                    border-radius: 3px;
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: 600;
                 }
+               
+            }
+            #protocol-con {
+                width: 600px;
+                height: 80px;
+                margin: 20px 20px;
+                border: 1px solid #ccc;
+                padding: 8px;
+                overflow-y: scroll;
+                color: #666;
+                font-size: 14px;
             }
         }
+        footer{
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+            font-size: 12px;
+            span{
+                margin: 5px 10px;
+                a{
+                    color: #666;
+                }
+            }
+            p{
+                margin-top: 5px;
+            }
+            
+        }
     }
+    

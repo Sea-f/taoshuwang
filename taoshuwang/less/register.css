@@ -1,20 +1,20 @@
-#logo {
+#register-body {
   display: block;
   width: 1200px;
   height: 100px;
   margin: 0 auto;
 }
-#logo > a > img {
+#register-body > a > img {
   display: inline-block;
   margin-top: 20px;
 }
-#logo .aa {
+#register-body .aa {
   width: 1200px;
   height: 22px;
   border-radius: 3px;
   background: url(../img/register_aa.jpg) no-repeat;
 }
-#logo .aa div {
+#register-body .aa div {
   width: 600px;
   float: left;
   display: inline-block;
@@ -22,35 +22,56 @@
   font-weight: 600;
   font-size: 14px;
 }
-#logo .aa div:nth-of-type(1) {
+#register-body .aa div:nth-of-type(1) {
   color: #ffffff;
 }
-#logo .aa div:nth-of-type(2) {
+#register-body .aa div:nth-of-type(2) {
   color: #888888;
 }
-#logo #register-main {
+#register-body #register-main {
   width: 1200px;
-  height: 560px;
-  background: goldenrod;
+  height: 520px;
+  position: relative;
+  /*             background: goldenrod; */
 }
-#logo #register-main main {
+#register-body #register-main aside {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+#register-body #register-main main {
   width: 670px;
   height: 100%;
-  background: greenyellow;
+  /*                 background: greenyellow; */
   overflow: hidden;
 }
-#logo #register-main main div {
-  width: 100%;
+#register-body #register-main main div {
+  box-sizing: border-box;
+  width: 99%;
   height: 40px;
-  background: #fff5cc;
+  /* background: rgb(255,245,204); */
   margin-top: 20px;
-  border: 1px solid #d7c2ac;
+  /* border: 1px solid rgb(215,194,172); */
 }
-#logo #register-main main div input {
+#register-body #register-main main div input {
   margin: 5px auto;
+  height: 26px;
+  outline: none;
+  width: 170px;
+  box-sizing: border-box;
+}
+#register-body #register-main main div canvas {
+  position: relative;
+  top: 8px;
+  width: 86px;
   height: 24px;
 }
-#logo #register-main main div label {
+#register-body #register-main main div #code {
+  display: inline-block;
+  vertical-align: middle;
+  width: 85px;
+}
+#register-body #register-main main div label {
   display: inline-block;
   text-align: right;
   width: 90px;
@@ -58,14 +79,15 @@
   font-size: 14px;
   color: #333333;
 }
-#logo #register-main main div span {
+#register-body #register-main main div > span {
   background: #fff2f2;
   border: 1px solid #ff8080;
   padding: 3px 15px 3px 3px;
   font-size: 12px;
   margin-left: 5px;
+  display: none;
 }
-#logo #register-main main div span n {
+#register-body #register-main main div > span n {
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -73,7 +95,40 @@
   background-size: 100%;
   vertical-align: middle;
 }
-#logo #register-main main button {
+#register-body #register-main main button {
   width: 130px;
   height: 36px;
+  margin: 30px 0 0 105px;
+  background: #d67e55;
+  /* background: rgb(174,102,69); */
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+#register-body #register-main #protocol-con {
+  width: 600px;
+  height: 80px;
+  margin: 20px 20px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  overflow-y: scroll;
+  color: #666;
+  font-size: 14px;
+}
+#register-body footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+}
+#register-body footer span {
+  margin: 5px 10px;
+}
+#register-body footer span a {
+  color: #666;
+}
+#register-body footer p {
+  margin-top: 5px;
 }
