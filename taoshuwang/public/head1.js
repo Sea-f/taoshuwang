@@ -52,7 +52,7 @@ $(() => {
     let head2_hot = `<div class="search-hot">热门搜索:${a_hot_main}</div>`;
     let head2 = `<div id ="header-wrapper">${head2_logo+head2_search+head2_heigth+head2_hot}</div>`; */
     let header = `<div id="page"><header id="header">${head1}</header></div>`;
-    $("body").append(header);
+    $("body").prepend(header)
 
 })
 

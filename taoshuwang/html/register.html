@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../public/jquery-3.4.1.js"></script>
+    <script src="../public/head1.js"></script>
+    <link rel="stylesheet" href="../public/every.css">
+    <link rel="stylesheet" href="../less/head1.css">
+    <link rel="stylesheet" href="../less/register.css">
+
+    <title>欢迎注册</title>
+</head>
+
+<body>
+
+    <div id="logo">
+        <a href="#">
+            <img src="../img/res-logo.png" alt=""><img src="../img/注册.png" alt="">
+        </a>
+        <div class="aa">
+            <div>1. 填写注册信息</div>
+            <div>2. 注册成功</div>
+        </div>
+        <div id="register-main">
+            <form action="">
+                <main class="clearFix">
+                    <div>
+                        <label for="user">用户名:</label>
+                        <input id="user" type="text">
+                        <span><n></n>请输入用户名</span>
+                        <span class="hint">用户名在5-20字符内，一个中文算两个字符</span>
+                    </div>
+                    <div>
+                        <label for="e-mail">电子邮箱:</label>
+                        <input id="e-mail" type="text">
+                        <span><n></n>请输入邮箱地址</span>
+                        <span class="hint">请填写您常用的邮箱地址</span>
+                    </div>
+                    <div>
+                        <label for="psw">密码:</label>
+                        <input type="text" id="psw">
+                        <span><n></n>请输入密码</span>
+                        <span class="hint">密码长度6-16个字符之间</span>
+                    </div>
+                    <div>
+                        <label for="psw-true">确认密码:</label>
+                        <input type="text" id="psw-true">
+                        <span><n></n>请再次输入密码</span>
+                        <span class="hint">请再次输入您设置的密码</span>
+                    </div>
+                    <div>
+                        <label for="code">验证码:</label>
+                        <input type="text" id="code">
+                        <span><n></n>请输入验证码</span>
+                        <span class="hint">请输入您看到的验证码</span>
+                    </div>
+                    <button type="submit">提交</button>
+                </main>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
