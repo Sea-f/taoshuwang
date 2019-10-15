@@ -5,7 +5,7 @@ $sql = "SELECT * FROM user WHERE username='$user' ";
 $result = mysqli_query($db, $sql);
 // print_r(mysqli_num_rows($result));
 $response = array("status"=>"","msg"=>"");
-if(mysqli_num_rows($result)==1){
+if(mysqli_num_rows($result)>=1){
     /*用户名已被注册*/
     $response["status"] = "error";
     $response["msg"] = " 该用户名已经被注册！！";

@@ -47,7 +47,7 @@ body {
   height: 25px;
   margin-left: 10px;
 }
-#page section #login_main > button {
+#page section #login_main button {
   width: 165px;
   height: 40px;
   border-top: none;

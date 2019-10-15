@@ -30,7 +30,7 @@ $(() => {
         name: "辛亥",
         src: "#"
     }];
-    let head1_left = `<p class="login-info">爱书的朋友，欢迎来淘书！<a href="#">请登录</a><a href="#">免费注册</a></p>`;
+    let head1_left = `<p class="login-info">爱书的朋友，欢迎来淘书！<a href="../html/login.html">请登录</a><a href="../html/register.html">免费注册</a></p>`;
 
     let head1_rigth_main = `<li><a href="#">首页</a> </li>
     <li class="mytaoshu menu-item">我的淘书<span id="onleaver_xuanzhuan">ˇ</span><ul>

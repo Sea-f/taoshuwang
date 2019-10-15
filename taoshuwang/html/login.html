@@ -20,7 +20,7 @@
             <a href=""><img src="../img/taoshu-logo.jpg" alt=""></a>
         </header>
         <section>
-            <aside id="login_main"> <span>淘书会员</span><button>免费注册</button>
+            <aside id="login_main"> <span>淘书会员</span><button id="register">免费注册</button>
                 <div class="ipt1">
                     <label for="username">账户名</label>
                     <input type="text" id="username"></div>
@@ -72,6 +72,9 @@
             }
 
         })
+    })
+    $("#register").click(function() {
+        window.location.href = "./register.html";
     })
 </script>
 
