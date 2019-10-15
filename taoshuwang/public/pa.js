@@ -1,0 +1,1 @@
+var olAll = document.querySelectorAll(".sort-menu-bd")[0].children //拿到所有的li

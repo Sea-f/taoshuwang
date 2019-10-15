@@ -2,7 +2,7 @@
   width: 1200px;
   height: 87px;
   margin: 0 auto;
-  background: brown;
+  position: relative;
   padding-top: 0.1px;
 }
 .head2-main h1 {
@@ -18,5 +18,90 @@
   float: left;
   margin-top: 8px;
   box-sizing: border-box;
-  background: cadetblue;
+}
+.head2-main .seek > ul {
+  width: 525px;
+  height: 34px;
+  display: block;
+  text-align: center;
+}
+.head2-main .seek .seek-input {
+  width: 700px;
+  height: 25px;
+  background: white;
+  position: relative;
+  border-radius: 3px;
+  margin-left: 5px;
+  box-shadow: darkgrey 0px 0px 2px 2px;
+}
+.head2-main .seek .seek-input input {
+  width: 450px;
+  height: 25px;
+  outline: none;
+  margin-left: 10px;
+  border: none;
+}
+.head2-main .seek .seek-input .select-type {
+  position: absolute;
+  right: 110px;
+  top: 0px;
+  width: 120px;
+}
+.head2-main .seek .seek-input .select-type .select-t {
+  height: 25px;
+  background: url(../img/search.png) no-repeat scroll 0 0 #f7f7f7;
+  cursor: pointer;
+  line-height: 25px;
+  padding-left: 10px;
+}
+.head2-main .seek .seek-input .select-type .select-t ul li {
+  height: 25px;
+  line-height: 25px;
+}
+.head2-main .seek .seek-input .select-type .options {
+  display: none;
+  background: cornsilk;
+  overflow: hidden;
+}
+.head2-main .seek .seek-input .select-type .options .all-field {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 16px;
+  padding-top: 8px;
+  border-radius: 0 4px 4px 0;
+}
+.head2-main .seek .seek-input .search-button {
+  float: right;
+}
+.head2-main .seek .seek-input .search-button > button {
+  width: 120px;
+  height: 25px;
+  background: #d54d40;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f3d1ce;
+}
+.head2-main .seek .hot-search {
+  width: 525px;
+  height: 34px;
+  display: block;
+  margin: 0 auto;
+}
+.head2-main .seek .hot-search li {
+  line-height: 34px;
+  font-size: 12px;
+  float: left;
+  margin-left: 5px;
+}
+.head2-main .bg-color {
+  background: wheat;
+}
+.head2-main #head2-goaji {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
 }
