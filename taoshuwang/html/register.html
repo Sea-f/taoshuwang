@@ -33,7 +33,7 @@
                 <div>
                     <label for="user">用户名:</label>
                     <input id="user" type="text">
-                    <span>
+                    <span class="fault">
                             <n></n><r>请输入用户名</r>
                     </span>
                     <span class="hint">用户名支持4到16位字母，数字，下划线，减号</span>
@@ -41,23 +41,23 @@
                 <div>
                     <label for="e-mail">电子邮箱:</label>
                     <input id="e-mail" type="text">
-                    <span>
+                    <span class="fault">
                             <n></n>请输入正确邮箱地址
                         </span>
                     <span class="hint">请填写您常用的邮箱地址</span>
                 </div>
                 <div>
                     <label for="psw">密码:</label>
-                    <input type="text" id="psw">
-                    <span>
+                    <input type="password" id="psw">
+                    <span class="fault">
                             <n></n>请输入正确格式的密码
                         </span>
                     <span class="hint">输入6-20个字母、数字、下划线</span>
                 </div>
                 <div>
                     <label for="psw-true">确认密码:</label>
-                    <input type="text" id="psw-true">
-                    <span>
+                    <input type="password" id="psw-true">
+                    <span class="fault">
                             <n></n>请再次输入正确密码
                         </span>
                     <span class="hint">请再次输入您设置的密码</span>
@@ -66,7 +66,7 @@
                     <label for="code">验证码:</label>
                     <input type="text" id="code">
                     <canvas></canvas>
-                    <span>
+                    <span class="fault">
                             <n></n>验证码错误
                         </span>
                     <span class="hint">请输入您看到的验证码</span>
@@ -184,7 +184,8 @@
             })
             $(this).siblings("span:nth-of-type(2)").css("display", "none");
         })
-        $("#user").keyup(function() {}).blur(function() {
+        let reg0 = /^[a-zA-Z0-9_-]{4,16}$/;
+        $("#user").blur(function() {
             //失去焦点发送检验请求
             $.ajax({
                     type: "post",
@@ -195,49 +196,83 @@
                     dataType: "json",
                     success: function(response) {
                         if (response.status == "error") {
-                            $("#user").siblings("span:nth-of-type(1)").fadeToggle().children("r").text("该用户已被注册");
+                            $("#user").siblings("span:nth-of-type(1)").fadeIn().children("r").text("该用户已被注册");
                         }
                     },
 
                 })
                 //当不符合正则时候调整提醒语句
-            if (/^[a-zA-Z0-9_-]{4,16}$/.test($("#user").val().trim()) == false) {
-                $(this).siblings("span:nth-of-type(1)").fadeToggle().children("r").text("请输入正确用户名");
+            if (reg0.test($("#user").val().trim()) == false) {
+                $("#user").siblings("span:nth-of-type(1)").fadeIn().children("r").text("请输入正确用户名");
             }
 
         })
+        var reg1 = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
         $("#e-mail").blur(function() {
-            var reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
-            if (!reg.test($(this).val())) {
-                $(this).siblings("span:nth-of-type(1)").fadeToggle();
+
+            if (!reg1.test($("#e-mail").val())) {
+                $("#e-mail").siblings("span:nth-of-type(1)").fadeIn();
             }
         })
+        let reg2 = /^(\w){6,20}$/;
         $("#psw-true,#psw").blur(function() {
-            var reg = /^(\w){6,20}$/;
-            if (!reg.test($(this).val())) {
-                $(this).siblings("span:nth-of-type(1)").fadeToggle();
-            }
-            if ($(this).val() == $("#psw-true").val()) {
+            if (!reg2.test($("#psw").val())) {
+                $("#psw").siblings("span:nth-of-type(1)").fadeIn();
                 $("#psw-true").siblings("span:nth-of-type(1)").fadeOut();
-            } else {
+            } else if (($("#psw").val() == $("#psw-true").val()) && reg2.test($("#psw").val())) {
+                $("#psw-true,#psw").siblings("span:nth-of-type(1)").fadeOut();
+            }
+            if (($("#psw").val() != $("#psw-true").val()) && reg2.test($("#psw").val())) {
                 $("#psw-true").siblings("span:nth-of-type(1)").fadeIn();
             }
         })
-        $("#psw-true,#psw").blur(function() {
-            if ($(this).val() != $("#psw").val()) {
-                $("#psw-true").siblings("span:nth-of-type(1)").fadeToggle();
-            }
-        })
+
+
+
 
         captcha.draw(document.querySelector('canvas'), r => {
             $("#code").blur(function() {
                 if ($("#code").val() != r) {
-                    $(this).siblings("span:nth-of-type(1)").fadeIn();
+                    $("#code").siblings("span:nth-of-type(1)").fadeIn();
                     console.log(r);
                 } else {
-                    $(this).siblings("span:nth-of-type(1)").fadeOut();
+                    $("#code").siblings("span:nth-of-type(1)").fadeOut();
                 }
             });
+        })
+        $("#submit").click(function() {
+            $("#user").trigger("blur");
+            $("#e-mail").trigger("blur");
+            $("#psw-true,#psw").trigger("blur");
+            $("#code").trigger("blur");
+            // $(".fault").css("display");
+            for (let i = 0; i < $(".fault").length; i++) {
+                if ($(".fault").eq(i).css("display") != "none") {
+                    alert("仍有不满足条件项，请重新填写");
+                    return;
+                } else if ($(".fault").eq(i).css("display") == "none" && i == ($(".fault").length - 1)) {
+                    $.ajax({
+                        type: "post",
+                        url: "../server/register.php",
+                        data: {
+                            "username": $("#user").val(),
+                            "password": $("#psw").val(),
+                            "e-mail": $("#e-mail").val()
+                        },
+                        success: function(response) {
+                            /* if (response.status == "error") {
+                                $("#user").siblings("span:nth-of-type(1)").fadeIn().children("r").text("该用户已被注册");
+                            } */
+                            alert(response.msg);
+                            window.location.href = `login.html`;
+
+                        }
+                    })
+                }
+
+
+            }
+
         })
     </script>
 </body>

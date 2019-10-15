@@ -15,4 +15,4 @@ if(mysqli_num_rows($result)==1){
     $response["msg"] = "可注册用户";
     echo json_encode($response,true);
 }
-?>
+?>  
