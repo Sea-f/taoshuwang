@@ -16,7 +16,7 @@ $(() => {
     let head1_rigth = `<ul class="quick-menu">${head1_rigth_main}</ul>`;
     let head1 = `<div class="site-bg"><div class="site-nav">${head1_left+head1_rigth}</div></div>`;
 
-    let header = `<div id="page"><header id="header">${head1}</header></div>`;
+    let header = `<header id="header">${head1}</header>`;
     $("body").prepend(header)
 
 })

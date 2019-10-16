@@ -1,0 +1,67 @@
+.silede-box {
+    margin: 0 auto;
+    width: 775px;
+    height: 350px;
+    overflow: hidden;
+    position: relative
+}
+
+.silede-box>ul {
+    white-space: nowrap
+}
+
+.silede-box>ul li {
+    height: 350px;
+    display: inline-block
+}
+
+.silede-box>ul li img {
+    width: 775px;
+    height: 350px
+}
+
+.silede-box .silede-body {
+    position: relative;
+    left: 0
+}
+
+.silede-box .silede-control {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    font-size: 60px
+}
+
+.silede-box .silede-control .prev {
+    margin-left: 20px
+}
+
+.silede-box .silede-control .next {
+    float: right;
+    margin-right: 20px
+}
+
+.silede-box .silede-nav {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    height: 30px
+}
+
+.silede-box .silede-nav li {
+    color: #fff;
+    float: left;
+    border-radius: 15px;
+    margin: 0 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px
+}
+
+.silede-box .silede-nav .active {
+    background: red
+}

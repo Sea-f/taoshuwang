@@ -22,8 +22,9 @@ $(() => {
         dataType:"json",
         success: function(res2) {
             $("#two_nav").prepend(
-                res2.map(els =>{return `<li><p>${els.h2}</p>
-                ${els.two.map(els2=>{return `<span>${els2}</span>`}).join("")}
+                res2.map(els =>{
+                    return `<li><p>${els.h2}</p><div class="a_box">
+                    ${els.two.map(els2=>{return `<a>${els2}</a>`}).join("")}</div>
             <div class="tree_box">
             
             <div class="tree_body_p">

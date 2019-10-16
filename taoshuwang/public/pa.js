@@ -37,19 +37,18 @@ Array.from(olAll).map((els, index) => {
 
     Array.from(oLie).map((els, index) => {
 
-        var oA = els.querySelectorAll(".e")[0].children;
-        var aee = Array.from(oA).map((els) => { return els.innerText });
-        var aee_f = Array.from(oA).map((els) => { return els.href });
+            var oA = els.querySelectorAll(".e")[0].children;
+            var aee = Array.from(oA).map((els) => { return els.innerText });
+            var aee_f = Array.from(oA).map((els) => { return els.href });
 
-        arr_h3.push({
-            "h3": els.children[0].children[0].innerText,
-            "h3_href": els.children[0].children[0].href,
-            "tree": aee,
-            "tree_href": aee_f
+            arr_h3.push({
+                "h3": els.children[0].children[0].innerText,
+                "h3_href": els.children[0].children[0].href,
+                "tree": aee,
+                "tree_href": aee_f
+            })
         })
-    })
-
-    // var tr_a=[];
+        // var tr_a=[];
     arr_h2.push({
         "h2": els.children[0].innerText,
         "h2_href": els.children[0].children[0].href,

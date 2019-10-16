@@ -69,18 +69,20 @@
 }
 #head3-nav #two_nav > li {
   width: 210px;
-  height: 100%;
   background: coral;
-  border: 1px solid #757575;
+  border-bottom: 1px solid #757575;
   padding: 0;
   margin: 0;
   text-align: left;
   position: relative;
 }
-#head3-nav #two_nav > li > span {
-  font-size: 14px;
+#head3-nav #two_nav > li .a_box {
+  font-size: 0;
+}
+#head3-nav #two_nav > li .a_box a {
+  font-size: 12px;
   display: inline;
-  margin-left: 2px ;
+  margin-left: 2px;
 }
 #head3-nav #two_nav > li .tree_box {
   position: absolute;
