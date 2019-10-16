@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 $user = $_REQUEST["username"];
 $db = mysqli_connect("127.0.0.1","root","","taoshuwang");
 $sql = "SELECT * FROM user WHERE username='$user' ";

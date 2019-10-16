@@ -85,8 +85,10 @@
   margin-left: 2px;
 }
 #head3-nav #two_nav > li .tree_box {
+  z-index: 100;
+  border: 1px solid #757575;
   position: absolute;
-  left: 211px;
+  left: 210px;
   width: 600px;
   display: none;
   top: 0;

@@ -3,7 +3,9 @@
     width: 775px;
     height: 350px;
     overflow: hidden;
-    position: relative
+    position: relative;
+    border: 1px solid rgb(117, 117, 117);
+    left: -1px;
 }
 
 .silede-box>ul {

@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 $db = mysqli_connect("127.0.0.1","root","","taoshuwang");
 $sql = "SELECT name FROM index_nav_main ";
 $res = mysqli_query($db, $sql);
