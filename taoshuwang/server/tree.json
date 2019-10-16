@@ -1,0 +1,1317 @@
+[{
+        "h3": "国学",
+        "h3_href": "http://www.taoshu.com/list/1001.html",
+        "tree": [
+            "经部",
+            "史部",
+            "子部",
+            "集部",
+            "丛部",
+            "国学入门",
+            "国学著作"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1011.html",
+            "http://www.taoshu.com/list/1012.html",
+            "http://www.taoshu.com/list/1013.html",
+            "http://www.taoshu.com/list/1014.html",
+            "http://www.taoshu.com/list/1015.html",
+            "http://www.taoshu.com/list/1617.html",
+            "http://www.taoshu.com/list/1618.html"
+        ]
+    },
+    {
+        "h3": "哲学",
+        "h3_href": "http://www.taoshu.com/list/1083.html",
+        "tree": [
+            "哲学理论",
+            "中国哲学",
+            "马/列/毛/邓经典理论",
+            "世界哲学",
+            "逻辑学",
+            "美学",
+            "心理学",
+            "哲学知识读物"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1224.html",
+            "http://www.taoshu.com/list/1225.html",
+            "http://www.taoshu.com/list/1226.html",
+            "http://www.taoshu.com/list/1227.html",
+            "http://www.taoshu.com/list/1229.html",
+            "http://www.taoshu.com/list/1230.html",
+            "http://www.taoshu.com/list/1231.html",
+            "http://www.taoshu.com/list/1232.html"
+        ]
+    },
+    {
+        "h3": "宗教",
+        "h3_href": "http://www.taoshu.com/list/1084.html",
+        "tree": [
+            "宗教理论",
+            "佛教",
+            "道教",
+            "基督教",
+            "伊斯兰教",
+            "其他宗教",
+            "宗教知识读物"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1233.html",
+            "http://www.taoshu.com/list/1234.html",
+            "http://www.taoshu.com/list/1235.html",
+            "http://www.taoshu.com/list/1236.html",
+            "http://www.taoshu.com/list/1237.html",
+            "http://www.taoshu.com/list/1238.html",
+            "http://www.taoshu.com/list/1239.html"
+        ]
+    },
+    {
+        "h3": "社会科学",
+        "h3_href": "http://www.taoshu.com/list/1085.html",
+        "tree": [
+            "社会科学总论",
+            "社会学",
+            "民族学",
+            "信息与知识传播",
+            "语言文字",
+            "人口学",
+            "统计学",
+            "图书馆学/情报学/档案学",
+            "人才学"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1240.html",
+            "http://www.taoshu.com/list/1241.html",
+            "http://www.taoshu.com/list/1242.html",
+            "http://www.taoshu.com/list/1243.html",
+            "http://www.taoshu.com/list/1244.html",
+            "http://www.taoshu.com/list/1245.html",
+            "http://www.taoshu.com/list/1246.html",
+            "http://www.taoshu.com/list/1247.html",
+            "http://www.taoshu.com/list/1594.html"
+        ]
+    },
+    {
+        "h3": "政治",
+        "h3_href": "http://www.taoshu.com/list/1086.html",
+        "tree": [
+            "政治理论",
+            "中国政治",
+            "世界政治",
+            "外交、国际关系",
+            "时政",
+            "党政读物",
+            "行政管理"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1248.html",
+            "http://www.taoshu.com/list/1249.html",
+            "http://www.taoshu.com/list/1250.html",
+            "http://www.taoshu.com/list/1251.html",
+            "http://www.taoshu.com/list/1252.html",
+            "http://www.taoshu.com/list/1253.html",
+            "http://www.taoshu.com/list/1254.html"
+        ]
+    },
+    {
+        "h3": "军事",
+        "h3_href": "http://www.taoshu.com/list/1088.html",
+        "tree": [
+            "军事理论",
+            "中国军事",
+            "世界军事",
+            "军事技术",
+            "军事历史/纪实",
+            "兵器"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1255.html",
+            "http://www.taoshu.com/list/1256.html",
+            "http://www.taoshu.com/list/1257.html",
+            "http://www.taoshu.com/list/1258.html",
+            "http://www.taoshu.com/list/1259.html",
+            "http://www.taoshu.com/list/1260.html"
+        ]
+    },
+    {
+        "h3": "文化",
+        "h3_href": "http://www.taoshu.com/list/1089.html",
+        "tree": [
+            "文化理论",
+            "文化评述",
+            "中国文化",
+            "世界各国文化",
+            "地域文化",
+            "神秘现象"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1270.html",
+            "http://www.taoshu.com/list/1271.html",
+            "http://www.taoshu.com/list/1272.html",
+            "http://www.taoshu.com/list/1273.html",
+            "http://www.taoshu.com/list/1274.html",
+            "http://www.taoshu.com/list/1275.html"
+        ]
+    },
+    {
+        "h3": "历史",
+        "h3_href": "http://www.taoshu.com/list/1090.html",
+        "tree": [
+            "史学理论",
+            "中国史",
+            "世界史",
+            "风俗习惯",
+            "文物考古",
+            "地方史志",
+            "历史知识读物",
+            "民族史志"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1276.html",
+            "http://www.taoshu.com/list/1277.html",
+            "http://www.taoshu.com/list/1278.html",
+            "http://www.taoshu.com/list/1279.html",
+            "http://www.taoshu.com/list/1280.html",
+            "http://www.taoshu.com/list/1281.html",
+            "http://www.taoshu.com/list/1282.html",
+            "http://www.taoshu.com/list/1626.html"
+        ]
+    },
+    {
+        "h3": "地理",
+        "h3_href": "http://www.taoshu.com/list/1091.html",
+        "tree": [
+            "地理学理论",
+            "中国地理",
+            "世界地理",
+            "地图"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1293.html",
+            "http://www.taoshu.com/list/1294.html",
+            "http://www.taoshu.com/list/1295.html",
+            "http://www.taoshu.com/list/1129.html"
+        ]
+    },
+    {
+        "h3": "文学",
+        "h3_href": "http://www.taoshu.com/list/1077.html",
+        "tree": [
+            "文学理论",
+            "文学史",
+            "作品集",
+            "纪实文学",
+            "诗歌词曲赋",
+            "散文随笔",
+            "戏剧与戏曲",
+            "民间文学",
+            "文学评论与研究"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1157.html",
+            "http://www.taoshu.com/list/1158.html",
+            "http://www.taoshu.com/list/1159.html",
+            "http://www.taoshu.com/list/1161.html",
+            "http://www.taoshu.com/list/1162.html",
+            "http://www.taoshu.com/list/1163.html",
+            "http://www.taoshu.com/list/1264.html",
+            "http://www.taoshu.com/list/1165.html",
+            "http://www.taoshu.com/list/1616.html"
+        ]
+    },
+    {
+        "h3": "小说",
+        "h3_href": "http://www.taoshu.com/list/1078.html",
+        "tree": [
+            "作品集",
+            "世界名著",
+            "外国小说",
+            "武侠小说",
+            "科幻小说",
+            "言情小说",
+            "都市小说",
+            "历史小说",
+            "魔幻/玄幻小说",
+            "侦探/悬疑小说",
+            "恐怖/惊悚小说",
+            "影视同期书",
+            "中国古典小说",
+            "中国现代小说",
+            "中国当代小说"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1174.html",
+            "http://www.taoshu.com/list/1175.html",
+            "http://www.taoshu.com/list/1176.html",
+            "http://www.taoshu.com/list/1177.html",
+            "http://www.taoshu.com/list/1178.html",
+            "http://www.taoshu.com/list/1179.html",
+            "http://www.taoshu.com/list/1180.html",
+            "http://www.taoshu.com/list/1181.html",
+            "http://www.taoshu.com/list/1182.html",
+            "http://www.taoshu.com/list/1183.html",
+            "http://www.taoshu.com/list/1184.html",
+            "http://www.taoshu.com/list/1185.html",
+            "http://www.taoshu.com/list/1186.html",
+            "http://www.taoshu.com/list/1187.html",
+            "http://www.taoshu.com/list/1188.html"
+        ]
+    },
+    {
+        "h3": "传记",
+        "h3_href": "http://www.taoshu.com/list/1081.html",
+        "tree": [
+            "人物总传",
+            "领袖/政治人物",
+            "哲学家、思想家",
+            "军事人物",
+            "科学家",
+            "医学家",
+            "人文学家、社会学家",
+            "财经人物",
+            "文学届",
+            "艺术届",
+            "体育届",
+            "群星荟萃",
+            "历史人物",
+            "社会各界人物"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1189.html",
+            "http://www.taoshu.com/list/1190.html",
+            "http://www.taoshu.com/list/1191.html",
+            "http://www.taoshu.com/list/1192.html",
+            "http://www.taoshu.com/list/1194.html",
+            "http://www.taoshu.com/list/1195.html",
+            "http://www.taoshu.com/list/1196.html",
+            "http://www.taoshu.com/list/1197.html",
+            "http://www.taoshu.com/list/1198.html",
+            "http://www.taoshu.com/list/1199.html",
+            "http://www.taoshu.com/list/1200.html",
+            "http://www.taoshu.com/list/1201.html",
+            "http://www.taoshu.com/list/1202.html",
+            "http://www.taoshu.com/list/1203.html"
+        ]
+    },
+    {
+        "h3": "青春文学",
+        "h3_href": "http://www.taoshu.com/list/1079.html",
+        "tree": [
+            "校园文学",
+            "叛逆小说",
+            "网络小说",
+            "青春言情"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1204.html",
+            "http://www.taoshu.com/list/1205.html",
+            "http://www.taoshu.com/list/1206.html",
+            "http://www.taoshu.com/list/1611.html"
+        ]
+    },
+    {
+        "h3": "艺术",
+        "h3_href": "http://www.taoshu.com/list/1082.html",
+        "tree": [
+            "艺术理论",
+            "艺术史",
+            "工艺美术",
+            "书法/篆刻",
+            "绘画",
+            "音乐",
+            "舞蹈",
+            "影视艺术",
+            "戏剧艺术",
+            "雕塑艺术",
+            "建筑艺术",
+            "收藏鉴赏",
+            "民间艺术",
+            "摄影艺术"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1211.html",
+            "http://www.taoshu.com/list/1212.html",
+            "http://www.taoshu.com/list/1213.html",
+            "http://www.taoshu.com/list/1214.html",
+            "http://www.taoshu.com/list/1215.html",
+            "http://www.taoshu.com/list/1216.html",
+            "http://www.taoshu.com/list/1217.html",
+            "http://www.taoshu.com/list/1218.html",
+            "http://www.taoshu.com/list/1219.html",
+            "http://www.taoshu.com/list/1220.html",
+            "http://www.taoshu.com/list/1221.html",
+            "http://www.taoshu.com/list/1222.html",
+            "http://www.taoshu.com/list/1223.html",
+            "http://www.taoshu.com/list/1604.html"
+        ]
+    },
+    {
+        "h3": "动漫",
+        "h3_href": "http://www.taoshu.com/list/1080.html",
+        "tree": [
+            "动漫书库",
+            "动漫学堂",
+            "幽默漫画",
+            "连环画与小人书"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1207.html",
+            "http://www.taoshu.com/list/1208.html",
+            "http://www.taoshu.com/list/1209.html",
+            "http://www.taoshu.com/list/1210.html"
+        ]
+    },
+    {
+        "h3": "经济",
+        "h3_href": "http://www.taoshu.com/list/1092.html",
+        "tree": [
+            "经济学理论",
+            "经济史",
+            "中国经济",
+            "世界经济",
+            "各行业经济",
+            "贸易经济",
+            "财政、金融"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1296.html",
+            "http://www.taoshu.com/list/1297.html",
+            "http://www.taoshu.com/list/1298.html",
+            "http://www.taoshu.com/list/1299.html",
+            "http://www.taoshu.com/list/1230.html",
+            "http://www.taoshu.com/list/1231.html",
+            "http://www.taoshu.com/list/1232.html"
+        ]
+    },
+    {
+        "h3": "管理",
+        "h3_href": "http://www.taoshu.com/list/1093.html",
+        "tree": [
+            "管理学理论",
+            "会计、审计、税务",
+            "市场营销",
+            "战略管理",
+            "企业管理",
+            "企业与企业家",
+            "个人理财",
+            "商务实务",
+            "管理信息系统",
+            "电子商务",
+            "MBA",
+            "人力资源管理",
+            "项目管理"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1307.html",
+            "http://www.taoshu.com/list/1308.html",
+            "http://www.taoshu.com/list/1309.html",
+            "http://www.taoshu.com/list/1310.html",
+            "http://www.taoshu.com/list/1311.html",
+            "http://www.taoshu.com/list/1312.html",
+            "http://www.taoshu.com/list/1313.html",
+            "http://www.taoshu.com/list/1314.html",
+            "http://www.taoshu.com/list/1315.html",
+            "http://www.taoshu.com/list/1316.html",
+            "http://www.taoshu.com/list/1317.html",
+            "http://www.taoshu.com/list/1619.html",
+            "http://www.taoshu.com/list/1620.html"
+        ]
+    },
+    {
+        "h3": "法律",
+        "h3_href": "http://www.taoshu.com/list/1087.html",
+        "tree": [
+            "理论法学",
+            "法律知识读物",
+            "司法案例与司法解释",
+            "法律法规",
+            "司法制度",
+            "法律教材与法律考试",
+            "法律文书写作",
+            "世界各国法律",
+            "国际法",
+            "法律工具书"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1262.html",
+            "http://www.taoshu.com/list/1263.html",
+            "http://www.taoshu.com/list/1264.html",
+            "http://www.taoshu.com/list/1265.html",
+            "http://www.taoshu.com/list/1266.html",
+            "http://www.taoshu.com/list/1267.html",
+            "http://www.taoshu.com/list/1268.html",
+            "http://www.taoshu.com/list/1269.html",
+            "http://www.taoshu.com/list/1596.html",
+            "http://www.taoshu.com/list/1261.html"
+        ]
+    },
+    {
+        "h3": "励志",
+        "h3_href": "http://www.taoshu.com/list/1094.html",
+        "tree": [
+            "成长/成功",
+            "个人修养与自我完善",
+            "成功心理学",
+            "出国留学",
+            "人在职场",
+            "社会与交往",
+            "格言/警句/赠言",
+            "求职/面试",
+            "谋略"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1318.html",
+            "http://www.taoshu.com/list/1319.html",
+            "http://www.taoshu.com/list/1320.html",
+            "http://www.taoshu.com/list/1321.html",
+            "http://www.taoshu.com/list/1322.html",
+            "http://www.taoshu.com/list/1323.html",
+            "http://www.taoshu.com/list/1324.html",
+            "http://www.taoshu.com/list/1325.html",
+            "http://www.taoshu.com/list/1326.html"
+        ]
+    },
+    {
+        "h3": "亲子读物 ",
+        "h3_href": "http://www.taoshu.com/list/1114.html",
+        "tree": [
+            "低幼读物",
+            "启蒙认知",
+            "动漫世界"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1114.html",
+            "http://www.taoshu.com/list/1115.html",
+            "http://www.taoshu.com/list/1124.html"
+        ]
+    },
+    {
+        "h3": "少儿文学 ",
+        "h3_href": "http://www.taoshu.com/list/1121.html",
+        "tree": [
+            "童话世界",
+            "神话传说",
+            "寓言幽默",
+            "文学天地"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1117.html",
+            "http://www.taoshu.com/list/1118.html",
+            "http://www.taoshu.com/list/1119.html",
+            "http://www.taoshu.com/list/1121.html"
+        ]
+    },
+    {
+        "h3": "少儿百科",
+        "h3_href": "http://www.taoshu.com/list/1127.html",
+        "tree": [
+            "科普文化",
+            "传统文化",
+            "生活知识",
+            "综合读物"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1116.html",
+            "http://www.taoshu.com/list/1120.html",
+            "http://www.taoshu.com/list/1126.html",
+            "http://www.taoshu.com/list/1127.html"
+        ]
+    },
+    {
+        "h3": "才艺课堂 ",
+        "h3_href": "http://www.taoshu.com/list/1122.html",
+        "tree": [
+            "才艺课堂",
+            "游戏乐园"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1122.html",
+            "http://www.taoshu.com/list/1123.html"
+        ]
+    },
+    {
+        "h3": "励志与成长 ",
+        "h3_href": "http://www.taoshu.com/list/1125.html",
+        "tree": [
+            "励志与成长"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1125.html"
+        ]
+    },
+    {
+        "h3": "科普读物",
+        "h3_href": "http://www.taoshu.com/list/1102.html",
+        "tree": [
+            "动物",
+            "植物",
+            "海洋/海洋生物",
+            "人类",
+            "天文",
+            "自然灾害",
+            "地理/气象/生态",
+            "其他科普知识"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1388.html",
+            "http://www.taoshu.com/list/1389.html",
+            "http://www.taoshu.com/list/1390.html",
+            "http://www.taoshu.com/list/1391.html",
+            "http://www.taoshu.com/list/1392.html",
+            "http://www.taoshu.com/list/1393.html",
+            "http://www.taoshu.com/list/1394.html",
+            "http://www.taoshu.com/list/1395.html"
+        ]
+    },
+    {
+        "h3": "自然科学",
+        "h3_href": "http://www.taoshu.com/list/1103.html",
+        "tree": [
+            "自然科学总论",
+            "数学",
+            "力学",
+            "物理学",
+            "化学",
+            "天文学/地球科学",
+            "生物科学"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1605.html",
+            "http://www.taoshu.com/list/1396.html",
+            "http://www.taoshu.com/list/1397.html",
+            "http://www.taoshu.com/list/1398.html",
+            "http://www.taoshu.com/list/1399.html",
+            "http://www.taoshu.com/list/1401.html",
+            "http://www.taoshu.com/list/1402.html"
+        ]
+    },
+    {
+        "h3": "工业技术",
+        "h3_href": "http://www.taoshu.com/list/1104.html",
+        "tree": [
+            "工业技术理论/总述",
+            "一般工业技术",
+            "矿业工程",
+            "石油、天然气工业",
+            "冶金工业",
+            "金属学、金属工艺",
+            "机械、仪表工业",
+            "武器工业",
+            "动力工程",
+            "原子能技术",
+            "电工技术",
+            "无线电电子学",
+            "自动化技术、计算技术",
+            "化学工业",
+            "轻工业、手工业",
+            "建筑科学",
+            "水利工程"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1625.html",
+            "http://www.taoshu.com/list/1403.html",
+            "http://www.taoshu.com/list/1404.html",
+            "http://www.taoshu.com/list/1405.html",
+            "http://www.taoshu.com/list/1406.html",
+            "http://www.taoshu.com/list/1407.html",
+            "http://www.taoshu.com/list/1408.html",
+            "http://www.taoshu.com/list/1409.html",
+            "http://www.taoshu.com/list/1410.html",
+            "http://www.taoshu.com/list/1411.html",
+            "http://www.taoshu.com/list/1412.html",
+            "http://www.taoshu.com/list/1413.html",
+            "http://www.taoshu.com/list/1414.html",
+            "http://www.taoshu.com/list/1415.html",
+            "http://www.taoshu.com/list/1416.html",
+            "http://www.taoshu.com/list/1417.html",
+            "http://www.taoshu.com/list/1418.html"
+        ]
+    },
+    {
+        "h3": "医学",
+        "h3_href": "http://www.taoshu.com/list/1105.html",
+        "tree": [
+            "基础医学",
+            "预防医学、卫生学",
+            "中国医学",
+            "临床医学",
+            "内科学",
+            "外科学",
+            "妇产科学",
+            "儿科学",
+            "肿瘤学",
+            "神经病学与精神病学",
+            "皮肤病学与性科学",
+            "耳鼻咽喉科学",
+            "眼科学",
+            "口腔科学",
+            "特种医学",
+            "药学"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1419.html",
+            "http://www.taoshu.com/list/1420.html",
+            "http://www.taoshu.com/list/1421.html",
+            "http://www.taoshu.com/list/1422.html",
+            "http://www.taoshu.com/list/1423.html",
+            "http://www.taoshu.com/list/1424.html",
+            "http://www.taoshu.com/list/1425.html",
+            "http://www.taoshu.com/list/1426.html",
+            "http://www.taoshu.com/list/1427.html",
+            "http://www.taoshu.com/list/1428.html",
+            "http://www.taoshu.com/list/1429.html",
+            "http://www.taoshu.com/list/1430.html",
+            "http://www.taoshu.com/list/1431.html",
+            "http://www.taoshu.com/list/1432.html",
+            "http://www.taoshu.com/list/1434.html",
+            "http://www.taoshu.com/list/1435.html"
+        ]
+    },
+    {
+        "h3": "农业科学",
+        "h3_href": "http://www.taoshu.com/list/1106.html",
+        "tree": [
+            "农业基础科学",
+            "农业工程",
+            "农学",
+            "植物保护",
+            "农作物",
+            "园艺",
+            "林业",
+            "畜牧、动物医学",
+            "水产、渔业"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1436.html",
+            "http://www.taoshu.com/list/1437.html",
+            "http://www.taoshu.com/list/1438.html",
+            "http://www.taoshu.com/list/1439.html",
+            "http://www.taoshu.com/list/1440.html",
+            "http://www.taoshu.com/list/1441.html",
+            "http://www.taoshu.com/list/1442.html",
+            "http://www.taoshu.com/list/1443.html",
+            "http://www.taoshu.com/list/1444.html"
+        ]
+    },
+    {
+        "h3": "交通运输",
+        "h3_href": "http://www.taoshu.com/list/1108.html",
+        "tree": [
+            "综合运输",
+            "铁路运输",
+            "公路运输",
+            "水路运输",
+            "航空运输"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1445.html",
+            "http://www.taoshu.com/list/1446.html",
+            "http://www.taoshu.com/list/1447.html",
+            "http://www.taoshu.com/list/1448.html",
+            "http://www.taoshu.com/list/1449.html"
+        ]
+    },
+    {
+        "h3": "环境科学",
+        "h3_href": "http://www.taoshu.com/list/1109.html",
+        "tree": [
+            "环境科学基础理论",
+            "环境综合研究",
+            "环境保护管理",
+            "灾害及其防治",
+            "环境污染及其防治",
+            "三废处理与综合利用",
+            "环境质量评价与监测",
+            "安全科学"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1450.html",
+            "http://www.taoshu.com/list/1451.html",
+            "http://www.taoshu.com/list/1452.html",
+            "http://www.taoshu.com/list/1453.html",
+            "http://www.taoshu.com/list/1454.html",
+            "http://www.taoshu.com/list/1455.html",
+            "http://www.taoshu.com/list/1456.html",
+            "http://www.taoshu.com/list/1457.html"
+        ]
+    },
+    {
+        "h3": "航空、航天",
+        "h3_href": "http://www.taoshu.com/list/1606.html",
+        "tree": [
+            "航空、航天技术的研究",
+            "航空",
+            "航天（宇宙航行）"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1607.html",
+            "http://www.taoshu.com/list/1608.html",
+            "http://www.taoshu.com/list/1609.html"
+        ]
+    },
+    {
+        "h3": "计算机理论",
+        "h3_href": "http://www.taoshu.com/list/1458.html",
+        "tree": [
+            "计算机科学理论与基础知识",
+            "计算机组织与体系结构",
+            "硬件、外部设备与维护",
+            "软件工程及软件方法学",
+            "人工智能",
+            "信息安全"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1458.html",
+            "http://www.taoshu.com/list/1459.html",
+            "http://www.taoshu.com/list/1460.html",
+            "http://www.taoshu.com/list/1467.html",
+            "http://www.taoshu.com/list/1469.html",
+            "http://www.taoshu.com/list/1473.html"
+        ]
+    },
+    {
+        "h3": "操作系统",
+        "h3_href": "http://www.taoshu.com/list/1461.html",
+        "tree": [
+            "操作系统理论",
+            "Windows",
+            "UNIX",
+            "Linux",
+            "其他操作系统"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1475.html",
+            "http://www.taoshu.com/list/1476.html",
+            "http://www.taoshu.com/list/1477.html",
+            "http://www.taoshu.com/list/1478.html",
+            "http://www.taoshu.com/list/1479.html"
+        ]
+    },
+    {
+        "h3": "数据库",
+        "h3_href": "http://www.taoshu.com/list/1462.html",
+        "tree": [
+            "数据库理论",
+            "Oracle",
+            "SQL Sever",
+            "FoxPro/FoxBase",
+            "MySQL",
+            "其他数据库",
+            "数据库挖掘/数据仓库",
+            "数据库设计/管理"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1480.html",
+            "http://www.taoshu.com/list/1481.html",
+            "http://www.taoshu.com/list/1482.html",
+            "http://www.taoshu.com/list/1483.html",
+            "http://www.taoshu.com/list/1484.html",
+            "http://www.taoshu.com/list/1485.html",
+            "http://www.taoshu.com/list/1486.html",
+            "http://www.taoshu.com/list/1487.html"
+        ]
+    },
+    {
+        "h3": "程序设计",
+        "h3_href": "http://www.taoshu.com/list/1463.html",
+        "tree": [
+            "程序设计综合",
+            "C/C++及其相关",
+            "BASIC/VB及其相关",
+            "JAVA及其相关",
+            ".NET",
+            "Pascal/Delphi",
+            "Fortran",
+            "Powerbuilder",
+            "网络编程",
+            "汇编语言/编译原理",
+            "其他编程语言/工具"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1488.html",
+            "http://www.taoshu.com/list/1489.html",
+            "http://www.taoshu.com/list/1490.html",
+            "http://www.taoshu.com/list/1491.html",
+            "http://www.taoshu.com/list/1492.html",
+            "http://www.taoshu.com/list/1493.html",
+            "http://www.taoshu.com/list/1494.html",
+            "http://www.taoshu.com/list/1495.html",
+            "http://www.taoshu.com/list/1496.html",
+            "http://www.taoshu.com/list/1497.html",
+            "http://www.taoshu.com/list/1498.html"
+        ]
+    },
+    {
+        "h3": "网络数据通信",
+        "h3_href": "http://www.taoshu.com/list/1464.html",
+        "tree": [
+            "网络通信综合",
+            "计算机网络",
+            "网络组建与管理",
+            "网络协议",
+            "网络服务",
+            "Web Server",
+            "Cisco"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1515.html",
+            "http://www.taoshu.com/list/1516.html",
+            "http://www.taoshu.com/list/1517.html",
+            "http://www.taoshu.com/list/1518.html",
+            "http://www.taoshu.com/list/1519.html",
+            "http://www.taoshu.com/list/1520.html",
+            "http://www.taoshu.com/list/1521.html"
+        ]
+    },
+    {
+        "h3": "图形图像、多媒体",
+        "h3_href": "http://www.taoshu.com/list/1465.html",
+        "tree": [
+            "综合",
+            "Photoshop",
+            "CorelDraw",
+            "Illustrator",
+            "MAYA",
+            "Premiere",
+            "3D Studio MAX",
+            "Authorware",
+            "Director",
+            "Flash",
+            "Dreamweaver",
+            "Fireworks",
+            "视频/音频/流媒体",
+            "After Effects",
+            "其他处理软件"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1499.html",
+            "http://www.taoshu.com/list/1500.html",
+            "http://www.taoshu.com/list/1501.html",
+            "http://www.taoshu.com/list/1502.html",
+            "http://www.taoshu.com/list/1504.html",
+            "http://www.taoshu.com/list/1505.html",
+            "http://www.taoshu.com/list/1506.html",
+            "http://www.taoshu.com/list/1507.html",
+            "http://www.taoshu.com/list/1508.html",
+            "http://www.taoshu.com/list/1509.html",
+            "http://www.taoshu.com/list/1510.html",
+            "http://www.taoshu.com/list/1511.html",
+            "http://www.taoshu.com/list/1512.html",
+            "http://www.taoshu.com/list/1513.html",
+            "http://www.taoshu.com/list/1514.html"
+        ]
+    },
+    {
+        "h3": "办公软件",
+        "h3_href": "http://www.taoshu.com/list/1470.html",
+        "tree": [
+            "计算机辅助设计与工程计算",
+            "行业软件及应用",
+            "认证与等级考试",
+            "信息系统"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1466.html",
+            "http://www.taoshu.com/list/1468.html",
+            "http://www.taoshu.com/list/1471.html",
+            "http://www.taoshu.com/list/1472.html"
+        ]
+    },
+    {
+        "h3": "电子商务",
+        "h3_href": "http://www.taoshu.com/list/1474.html",
+        "tree": [
+            "电子商务"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1474.html"
+        ]
+    },
+    {
+        "h3": "游戏设计",
+        "h3_href": "http://www.taoshu.com/list/1637.html",
+        "tree": [
+            "游戏设计"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1637.html"
+        ]
+    },
+    {
+        "h3": "家居",
+        "h3_href": "http://www.taoshu.com/list/1095.html",
+        "tree": [
+            "购物/置业/理财",
+            "家居装潢",
+            "家庭园艺",
+            "宠物",
+            "爱车一族",
+            "生活百科",
+            "家庭关系"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1328.html",
+            "http://www.taoshu.com/list/1329.html",
+            "http://www.taoshu.com/list/1330.html",
+            "http://www.taoshu.com/list/1331.html",
+            "http://www.taoshu.com/list/1332.html",
+            "http://www.taoshu.com/list/1333.html",
+            "http://www.taoshu.com/list/1622.html"
+        ]
+    },
+    {
+        "h3": "美食",
+        "h3_href": "http://www.taoshu.com/list/1096.html",
+        "tree": [
+            "饮食文化",
+            "家常食谱",
+            "饮食保健",
+            "中华菜系",
+            "西餐/料理",
+            "茶/酒/饮品",
+            "甜品/面点",
+            "烹饪理论"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1334.html",
+            "http://www.taoshu.com/list/1335.html",
+            "http://www.taoshu.com/list/1336.html",
+            "http://www.taoshu.com/list/1337.html",
+            "http://www.taoshu.com/list/1338.html",
+            "http://www.taoshu.com/list/1339.html",
+            "http://www.taoshu.com/list/1340.html",
+            "http://www.taoshu.com/list/1341.html"
+        ]
+    },
+    {
+        "h3": "旅游",
+        "h3_href": "http://www.taoshu.com/list/1097.html",
+        "tree": [
+            "旅游指南",
+            "旅游随笔",
+            "旅游地图",
+            "自助游",
+            "华夏览胜",
+            "异国风情",
+            "旅游摄影/画册",
+            "旅游实用外语",
+            "旅游理论/旅游实务"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1342.html",
+            "http://www.taoshu.com/list/1343.html",
+            "http://www.taoshu.com/list/1344.html",
+            "http://www.taoshu.com/list/1345.html",
+            "http://www.taoshu.com/list/1346.html",
+            "http://www.taoshu.com/list/1347.html",
+            "http://www.taoshu.com/list/1348.html",
+            "http://www.taoshu.com/list/1349.html",
+            "http://www.taoshu.com/list/1351.html"
+        ]
+    },
+    {
+        "h3": "娱乐时尚",
+        "h3_href": "http://www.taoshu.com/list/1098.html",
+        "tree": [
+            "美容/美体/化妆",
+            "减肥健身",
+            "服装/饰品",
+            "都市丽人",
+            "男人帮",
+            "时尚DIY",
+            "游戏",
+            "占卜测试",
+            "明星",
+            "时尚读图"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1352.html",
+            "http://www.taoshu.com/list/1353.html",
+            "http://www.taoshu.com/list/1354.html",
+            "http://www.taoshu.com/list/1355.html",
+            "http://www.taoshu.com/list/1356.html",
+            "http://www.taoshu.com/list/1357.html",
+            "http://www.taoshu.com/list/1358.html",
+            "http://www.taoshu.com/list/1359.html",
+            "http://www.taoshu.com/list/1360.html",
+            "http://www.taoshu.com/list/1361.html"
+        ]
+    },
+    {
+        "h3": "体育",
+        "h3_href": "http://www.taoshu.com/list/1099.html",
+        "tree": [
+            "体育理论及教学",
+            "球类",
+            "棋牌",
+            "田径",
+            "武术/太极/气功",
+            "水上运动",
+            "冰雪运动",
+            "其他体育项目"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1362.html",
+            "http://www.taoshu.com/list/1363.html",
+            "http://www.taoshu.com/list/1364.html",
+            "http://www.taoshu.com/list/1365.html",
+            "http://www.taoshu.com/list/1366.html",
+            "http://www.taoshu.com/list/1623.html",
+            "http://www.taoshu.com/list/1624.html",
+            "http://www.taoshu.com/list/1367.html"
+        ]
+    },
+    {
+        "h3": "婚恋/性",
+        "h3_href": "http://www.taoshu.com/list/1100.html",
+        "tree": [
+            "两性之间",
+            "恋爱",
+            "婚姻",
+            "性知识"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1379.html",
+            "http://www.taoshu.com/list/1380.html",
+            "http://www.taoshu.com/list/1381.html",
+            "http://www.taoshu.com/list/1382.html"
+        ]
+    },
+    {
+        "h3": "育儿/成长",
+        "h3_href": "http://www.taoshu.com/list/1101.html",
+        "tree": [
+            "准父母读物",
+            "孕产知识",
+            "婴幼儿护理",
+            "儿童营养健康",
+            "育儿百科",
+            "家庭教育"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1383.html",
+            "http://www.taoshu.com/list/1384.html",
+            "http://www.taoshu.com/list/1385.html",
+            "http://www.taoshu.com/list/1386.html",
+            "http://www.taoshu.com/list/1387.html",
+            "http://www.taoshu.com/list/1612.html"
+        ]
+    },
+    {
+        "h3": "健康",
+        "h3_href": "http://www.taoshu.com/list/1327.html",
+        "tree": [
+            "男性健康",
+            "女性健康",
+            "中老年保健",
+            "孕产妇保健",
+            "饮食营养/食疗",
+            "中医养生",
+            "常见病防治",
+            "家庭医生",
+            "性保健",
+            "心理健康",
+            "保健知识读物"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1368.html",
+            "http://www.taoshu.com/list/1369.html",
+            "http://www.taoshu.com/list/1370.html",
+            "http://www.taoshu.com/list/1371.html",
+            "http://www.taoshu.com/list/1372.html",
+            "http://www.taoshu.com/list/1373.html",
+            "http://www.taoshu.com/list/1374.html",
+            "http://www.taoshu.com/list/1375.html",
+            "http://www.taoshu.com/list/1376.html",
+            "http://www.taoshu.com/list/1377.html",
+            "http://www.taoshu.com/list/1378.html"
+        ]
+    },
+    {
+        "h3": "教育",
+        "h3_href": "http://www.taoshu.com/list/1597.html",
+        "tree": [
+            "教育学理论",
+            "教育管理",
+            "世界教育事业",
+            "中国教育事业",
+            "各级教育"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1598.html",
+            "http://www.taoshu.com/list/1599.html",
+            "http://www.taoshu.com/list/1600.html",
+            "http://www.taoshu.com/list/1601.html",
+            "http://www.taoshu.com/list/1602.html"
+        ]
+    },
+    {
+        "h3": "教材",
+        "h3_href": "http://www.taoshu.com/list/1110.html",
+        "tree": [
+            "研究生/本科/专科教材",
+            "高职高专教材",
+            "中职中专教材",
+            "成人教育教材",
+            "职业技术培训教材"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1548.html",
+            "http://www.taoshu.com/list/1549.html",
+            "http://www.taoshu.com/list/1550.html",
+            "http://www.taoshu.com/list/1551.html",
+            "http://www.taoshu.com/list/1552.html"
+        ]
+    },
+    {
+        "h3": "教辅",
+        "h3_href": "http://www.taoshu.com/list/1111.html",
+        "tree": [
+            "小学教辅",
+            "初中教辅",
+            "高中教辅",
+            "大学教辅",
+            "中小学作文辅导",
+            "奥赛/竞赛",
+            "综合素质教育",
+            "学习方法/报考",
+            "语文阅读",
+            "工具书",
+            "教师用书"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1553.html",
+            "http://www.taoshu.com/list/1554.html",
+            "http://www.taoshu.com/list/1555.html",
+            "http://www.taoshu.com/list/1556.html",
+            "http://www.taoshu.com/list/1557.html",
+            "http://www.taoshu.com/list/1558.html",
+            "http://www.taoshu.com/list/1559.html",
+            "http://www.taoshu.com/list/1655.html",
+            "http://www.taoshu.com/list/1656.html",
+            "http://www.taoshu.com/list/1657.html",
+            "http://www.taoshu.com/list/1658.html"
+        ]
+    },
+    {
+        "h3": "考试",
+        "h3_href": "http://www.taoshu.com/list/1112.html",
+        "tree": [
+            "中考",
+            "高考",
+            "研究生入学考试",
+            "成人高考",
+            "自学考试",
+            "外语类考试",
+            "计算机考试",
+            "公务员考试",
+            "经济管理类考试",
+            "建筑工程类职称考试",
+            "医药卫生类职称考试",
+            "其他类职称考试",
+            "艺术、体育类水平考试"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1560.html",
+            "http://www.taoshu.com/list/1561.html",
+            "http://www.taoshu.com/list/1562.html",
+            "http://www.taoshu.com/list/1563.html",
+            "http://www.taoshu.com/list/1564.html",
+            "http://www.taoshu.com/list/1565.html",
+            "http://www.taoshu.com/list/1566.html",
+            "http://www.taoshu.com/list/1567.html",
+            "http://www.taoshu.com/list/1568.html",
+            "http://www.taoshu.com/list/1569.html",
+            "http://www.taoshu.com/list/1570.html",
+            "http://www.taoshu.com/list/1571.html",
+            "http://www.taoshu.com/list/1572.html"
+        ]
+    },
+    {
+        "h3": "外语",
+        "h3_href": "http://www.taoshu.com/list/1113.html",
+        "tree": [
+            "少儿英语",
+            "中小学英语",
+            "大学英语",
+            "大学英语四六级",
+            "专业英语四八级",
+            "托福（TOEFL）/托业",
+            "GRE/GMAT",
+            "雅思",
+            "硕士/博士英语",
+            "英语学习/理论",
+            "其他英语考试",
+            "职业、行业英语",
+            "生活英语",
+            "英语读物",
+            "英语词汇/语法/阅读",
+            "英语听力/口语",
+            "英语写作/翻译",
+            "特色英语",
+            "商务英语",
+            "日语",
+            "德语",
+            "法语",
+            "俄语",
+            "韩语",
+            "老外学汉语",
+            "其他语种"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1573.html",
+            "http://www.taoshu.com/list/1574.html",
+            "http://www.taoshu.com/list/1575.html",
+            "http://www.taoshu.com/list/1576.html",
+            "http://www.taoshu.com/list/1577.html",
+            "http://www.taoshu.com/list/1578.html",
+            "http://www.taoshu.com/list/1579.html",
+            "http://www.taoshu.com/list/1580.html",
+            "http://www.taoshu.com/list/1581.html",
+            "http://www.taoshu.com/list/1582.html",
+            "http://www.taoshu.com/list/1583.html",
+            "http://www.taoshu.com/list/1584.html",
+            "http://www.taoshu.com/list/1585.html",
+            "http://www.taoshu.com/list/1586.html",
+            "http://www.taoshu.com/list/1613.html",
+            "http://www.taoshu.com/list/1614.html",
+            "http://www.taoshu.com/list/1615.html",
+            "http://www.taoshu.com/list/1621.html",
+            "http://www.taoshu.com/list/1628.html",
+            "http://www.taoshu.com/list/1587.html",
+            "http://www.taoshu.com/list/1588.html",
+            "http://www.taoshu.com/list/1589.html",
+            "http://www.taoshu.com/list/1590.html",
+            "http://www.taoshu.com/list/1591.html",
+            "http://www.taoshu.com/list/1592.html",
+            "http://www.taoshu.com/list/1593.html"
+        ]
+    },
+    {
+        "h3": "工具书",
+        "h3_href": "http://www.taoshu.com/list/1009.html",
+        "tree": [
+            "索引/目录",
+            "年鉴年刊",
+            "标准规范",
+            "百科全书",
+            "汉语工具书",
+            "外语工具书",
+            "科技工具书",
+            "医学工具书",
+            "其他工具书"
+        ],
+        "tree_href": [
+            "http://www.taoshu.com/list/1128.html",
+            "http://www.taoshu.com/list/1143.html",
+            "http://www.taoshu.com/list/1627.html",
+            "http://www.taoshu.com/list/1142.html",
+            "http://www.taoshu.com/list/1135.html",
+            "http://www.taoshu.com/list/1134.html",
+            "http://www.taoshu.com/list/1139.html",
+            "http://www.taoshu.com/list/1136.html",
+            "http://www.taoshu.com/list/1144.html"
+        ]
+    }
+]
