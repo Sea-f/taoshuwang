@@ -1,5 +1,4 @@
 $(() => {
-    var resss = [];
     $.ajax({
         type: "post",
         url: "../server/index_hot.php",
@@ -55,6 +54,7 @@ $(() => {
     // console.log(head2);
 
     $("body").prepend(header);
+
 
 
 })

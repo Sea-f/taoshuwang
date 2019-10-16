@@ -27,19 +27,12 @@ let arr = [{
 var olAll = document.querySelectorAll(".mainCate")
 var oMis = document.querySelectorAll(".min-sort")
 var arr_h2 = [];
-var arr_h3 = [];
 
 Array.from(olAll).map((els, index) => {
 
     var atr = Array.from(oMis[index].children).map(els => { return els.innerText });
     var atr_h = Array.from(oMis[index].children).map(els => { return els.href });
-    // var tr_a=[];
-    arr_h2.push({
-        "h2": els.children[0].innerText,
-        "h2_href": els.children[0].children[0].href,
-        "two": atr,
-        "two_href": atr_h,
-    })
+    var arr_h3 = [];
     var oLie = els.querySelectorAll(".submenu")[0].children[0].children;
 
     Array.from(oLie).map((els, index) => {
@@ -47,6 +40,7 @@ Array.from(olAll).map((els, index) => {
         var oA = els.querySelectorAll(".e")[0].children;
         var aee = Array.from(oA).map((els) => { return els.innerText });
         var aee_f = Array.from(oA).map((els) => { return els.href });
+
         arr_h3.push({
             "h3": els.children[0].children[0].innerText,
             "h3_href": els.children[0].children[0].href,
@@ -55,4 +49,25 @@ Array.from(olAll).map((els, index) => {
         })
     })
 
+    // var tr_a=[];
+    arr_h2.push({
+        "h2": els.children[0].innerText,
+        "h2_href": els.children[0].children[0].href,
+        "two": atr,
+        "two_href": atr_h,
+        "h3_main": arr_h3
+    })
+
+})
+
+
+var oSpan = document.querySelectorAll(".catli"); //li
+var arr_h2 = [];
+Array.from(oSpan).map((els) => {
+    var h2_s = els.querySelectorAll("span")[0].innerTEXT;
+    var h3_main = [];
+    arr_h2.push({
+        "h2": h2_s,
+
+    })
 })

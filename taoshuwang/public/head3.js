@@ -1,6 +1,6 @@
 $(() => {
             let nav1_main = `<ul class="nav1_body_1">
-    <li>全部图书分类</li>
+    <li>全部图书分类<ul id="two_nav"></ul></li>
     <li>首页</li>
     <li>阅读卡兑换专区</li>
     <li>专卖场</li>
@@ -9,12 +9,33 @@ $(() => {
     </ul>`;
             $.ajax({
                         type: "post",
-                        url: "../server/index_nav2.php",
+                        url: "../server/index_nav_main.php",
                         dataType: "json",
                         success: function(res) {
                                 let oLi = `<ul><li></li>${res.map((els) => `<li><a href="${els.href}">${els.name}</a></li>`).join("")}</ul>`;
-            $(".nav2-box").prepend(oLi); //样式需要
+                       $(".nav2-box").prepend(oLi); //样式需要
         }
+    })
+    $.ajax({
+        type:"post",
+        url:"../server/index_nav.php",
+        dataType:"json",
+        success: function(res2) {
+            $("#two_nav").prepend(
+                res2.map(els =>{return `<li><p>${els.h2}</p>
+                ${els.two.map(els2=>{return `<span>${els2}</span>`}).join("")}
+            <div class="tree_box">
+            
+            <div class="tree_body_p">
+            ${els.h3_main.map(els3=>{return `<div class="p_box"><div class="h3_icon">${els3.h3}</div>
+            <div class="h3_p_body">${els3.tree.map(els4=>{return `<span>${els4}</span>`}).join("")}
+            </div></div>`}).join("")}
+            </div>
+            
+            </div>
+           </li>`
+        }).join(""))
+}
     })
     let nav1 = `<div class="nav1-box">${nav1_main}</div>`;
     let nav2 = `<div class="nav2-box"></div>`;
