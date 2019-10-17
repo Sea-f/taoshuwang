@@ -1,8 +1,4 @@
 @charset "utf-8";
-#page {
-  background-repeat: repeat-x;
-  background-position: 0 -44px;
-}
 #header {
   margin: 0 auto;
   position: relative;

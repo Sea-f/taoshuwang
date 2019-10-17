@@ -1,3 +1,124 @@
 #page {
   margin: 0 auto;
+  width: 1200px;
+}
+#page #main_head {
+  width: 990px;
+  position: relative;
+  left: 210px;
+  top: 0px;
+}
+#page #main_head .new_book {
+  width: 775px;
+  height: 100%;
+}
+#page #main_head .new_book ul {
+  width: 100%;
+  text-align: center;
+}
+#page #main_head .main_head_right {
+  display: block;
+  position: absolute;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  width: 215px;
+  background: #c7754f;
+}
+#page #main_head .main_head_right .head_new {
+  width: 100%;
+  background: #f9f9f9;
+}
+#page #main_head .main_head_right .head_new p,
+#page #main_head .main_head_right .head_new h3 {
+  padding: 10px 5px;
+}
+#page #main_head .main_head_right .head_new p > a {
+  font-size: 14px;
+  color: #666666;
+}
+#page #main_head .main_head_right #head_vx {
+  width: 100%;
+}
+#page #main_head .main_head_right #head_vx img {
+  width: 100%;
+}
+#page .artc_box {
+  margin: 10px auto;
+  width: 100%;
+}
+#page .artc_box .artc_head {
+  height: 30px;
+  border-bottom: 2px solid #757575;
+}
+#page .artc_box .artc_head ul {
+  float: right;
+}
+#page .artc_box .artc_head ul > li {
+  float: left;
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: 600;
+  padding: 2px 5px;
+}
+#page .artc_box .artc_body > ul {
+  display: none;
+}
+#page .artc_box .artc_body > ul li {
+  margin: 20px 40px;
+}
+.book_obj {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  height: 220px;
+  margin: 10px 10px 0 ;
+}
+.book_obj aside {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border-radius: 50%;
+  background: #c7754f;
+}
+.book_obj aside span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.book_obj img {
+  width: 160px;
+  height: 160px;
+}
+.book_obj figcaption {
+  text-align: center;
+}
+.book_obj figcaption:nth-of-type(1) {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  margin: 5px auto;
+}
+.book_obj figcaption:nth-of-type(2) {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 2px;
+  /*  left: 50%;
+            transform: translate(-50%,-50%); */
+  text-align: center;
+  font-size: 14px;
+}
+.z_block {
+  display: block !important;
+}
+.z_color {
+  background: orangered;
+  color: white;
 }

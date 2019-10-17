@@ -1,6 +1,6 @@
 $(() => {
             let nav1_main = `<ul class="nav1_body_1">
-    <li>全部图书分类<ul id="two_nav"></ul></li>
+    <li id="href_list"><a href="list.html">全部图书分类</a><ul id="two_nav"></ul></li>
     <li>首页</li>
     <li>阅读卡兑换专区</li>
     <li>专卖场</li>
@@ -41,5 +41,15 @@ $(() => {
     let nav1 = `<div class="nav1-box">${nav1_main}</div>`;
     let nav2 = `<div class="nav2-box"></div>`;
     let header = `<div id="head3-nav">${nav1+nav2}</div>`;
-    $("body").prepend(header)
+    $("body").prepend(header);
+    $("#two_nav").addClass("dsp_no");
+    $("#href_list").mouseenter(()=>{
+        $("#two_nav").removeClass("dsp_no").addClass("dsp_on");
+    }).mouseleave(()=>{
+        $("#two_nav").removeClass("dsp_on").addClass("dsp_no");
+    })
+    $("#href_list").click(function(){
+       window.location ="list.html";
+        
+    })
 })

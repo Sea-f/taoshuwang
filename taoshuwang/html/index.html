@@ -13,6 +13,8 @@
     <script src="../public/footer.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/index_lunbo.js"></script>
+    <script src="../js/index_new_book.js"></script>
+
 
     <link rel="stylesheet" href="../public/every.css">
     <link rel="stylesheet" href="../less/head1.css">
@@ -22,10 +24,14 @@
     <link rel="stylesheet" href="../less/index.css">
     <link rel="stylesheet" href="../css/index_lunbo.min.css">
     <style>
-        #page {
-            width: 1200px;
+        body,
+        html {
+            width: 100%;
             height: 100%;
-            background: red;
+        }
+        
+        #two_nav {
+            display: block !important;
         }
     </style>
 
@@ -33,7 +39,31 @@
 
 <body>
     <div id="page">
-        <section id="main_head"></section>
+        <section id="main_head">
+            <div class="new_book">
+            </div>
+            <aside class="main_head_right">
+                <div class="head_new">
+                    <h3>淘书公告</h3>
+                    <p><a href="">暂停发货通知！</a></p>
+                    <p><a href="">关于发票选项问题</a></p>
+                    <p><a href="">标准营业时间！！！</a></p>
+                    <p><a href="">阅读卡使用注意事项！！！</a></p>
+                </div>
+                <div id="head_vx">
+                    <img src="../img/index_vx.png" alt="">
+                </div>
+                <ul class="recom">
+
+                </ul>
+            </aside>
+        </section>
+        <section id="main_top">
+            <script src="../js/index_windos.js"></script>
+        </section>
+        <section id="main_rand">
+            <script src="../js/index_windos.js"></script>
+        </section>
     </div>
 </body>
 

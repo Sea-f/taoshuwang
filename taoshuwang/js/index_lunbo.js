@@ -35,7 +35,7 @@ $(() => {
             oDiv.appendChild(this.siledeControl);
             oDiv.appendChild(this.siledeNav);
             this.siledeBox = oDiv;
-            $("#page").append(this.siledeBox);
+            $("#main_head").prepend(this.siledeBox);
             this.siledebodyLiWidth = this.siledeBody.querySelectorAll("li")[0].offsetWidth;
         }
         creatMain() { //创建轮播主体

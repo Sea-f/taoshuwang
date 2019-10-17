@@ -114,3 +114,6 @@
 .dsp_on {
   display: block;
 }
+.dsp_no {
+  display: none;
+}

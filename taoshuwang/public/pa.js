@@ -70,3 +70,44 @@ Array.from(oSpan).map((els) => {
 
     })
 })
+
+
+
+var attext = document.querySelectorAll(".tjjx .ks-switchable-nav a");
+var oUl = document.querySelectorAll("#sbook1 .travel-ul");
+var main = []
+
+
+Array.from(oUl).map((els, index) => {
+    var oLi = els.querySelectorAll("li");
+    var main1 = [];
+    Array.from(oLi).map(els2 => {
+        main1.push({
+            img: els2.querySelectorAll(".img180 img")[0].src,
+            titel: els2.querySelectorAll(".book-name")[0].innerText,
+            label_tj: els2.querySelectorAll(".label_tj")[0].innerText,
+            oli_price: els2.querySelectorAll(".old-price")[0].innerText,
+            new_price: els2.querySelectorAll(".new-price")[0].innerText
+        })
+    })
+    main.push({
+        "h1_titel": attext[index].innerText,
+        "box": main1
+    })
+})
+
+document.querySelectorAll(".goods .img .imgtag");
+
+var arr = []
+var obj = document.querySelectorAll(".ks-waterfall")
+Array.from(obj).map(els => {
+    arr.push({
+        "src": els.querySelectorAll("img")[0].src,
+        "title": els.querySelectorAll(".tbook-name")[0].children[0].innerText,
+        "href": els.querySelectorAll(".tbook-name")[0].children[0].href,
+        "price": els.querySelectorAll(".new-price")[0].innerText,
+        "old_price": els.querySelectorAll(".old-price")[0].innerText,
+        "label_tj": els.querySelectorAll(".label_tj")[0].innerText
+    })
+})
+JSON.stringify(arr);

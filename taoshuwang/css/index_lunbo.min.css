@@ -1,5 +1,4 @@
 .silede-box {
-    margin: 0 auto;
     width: 775px;
     height: 350px;
     overflow: hidden;
@@ -61,7 +60,8 @@
     text-align: center;
     width: 30px;
     height: 30px;
-    line-height: 30px
+    line-height: 30px;
+    background: black;
 }
 
 .silede-box .silede-nav .active {
