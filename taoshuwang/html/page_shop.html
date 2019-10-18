@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../public/jquery-3.4.1.js"></script>
+    <script src="../public/head3.js"></script>
+    <script src="../public/head2.js"></script>
+    <script src="../public/head1.js"></script>
+    <script src="../public/footer.js"></script>
+    <script src="../js/page_shop.js"></script>
+    <script src="../js/glass.js"></script>
+    <script src="../public/down_list.js"></script>
+    <script>
+        addDownList("#down_list_top", "num");
+    </script>
+
+    <link rel="stylesheet" href="../public/every.css">
+    <link rel="stylesheet" href="../less/head1.css">
+    <link rel="stylesheet" href="../less/head2.css">
+    <link rel="stylesheet" href="../less/head3.css">
+    <link rel="stylesheet" href="../less/footer.css">
+    <link rel="stylesheet" href="../less/page_show.css">
+    <link rel="stylesheet" href="../less/glass.css">
+    <link rel="stylesheet" href="../less/down_list.css">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="page">
+        <section id="icon_left">
+            <div id="down_list_top"></div>
+        </section>
+
+        <section id="detail" class="detail_box">
+            <div class="imgbox">
+                <div class="minImg">
+                    <img src="">
+                    <div class="img-mask" style="display:none"></div>
+                </div>
+                <div class="maxImg" style="display:none">
+                    <img src="">
+                </div>
+            </div>
+            <div class="dbbox">
+                <article class="page_shop_main">
+                </article>
+                <img class="wo666" src="../img/666.png" alt=""></div>
+        </section>
+    </div>
+    <script>
+        let url = location.href;
+        let id = url.split("=")[1];
+        console.log(id);
+
+        $.ajax({
+            type: "post",
+            data: {
+                id: id
+            },
+            dataType: "json",
+            url: "../server/page_shop.php",
+            success: (data) => {
+                console.log(data[0]);
+                console.log(data[0].src);
+                $(".maxImg").children("img").attr("src", `${data[0].src}`)
+                $(".minImg").children("img").attr("src", `${data[0].src}`)
+                oPage = `<div>
+                    <p><a href="${data[0].href}">《${data[0].title}》</a></p>
+                    <p>原价：￥${data[0].old_price}</p>
+                    <p>${data[0].label_tj}折</p>
+                        <p>现价：￥${data[0].price}</p>
+                        
+                        </p>
+                    </div>`
+                $(".page_shop_main").append(oPage);
+            }
+        })
+    </script>
+</body>
+
+</html>

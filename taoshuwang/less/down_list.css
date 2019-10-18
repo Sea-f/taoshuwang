@@ -1,0 +1,42 @@
+.down_list {
+  background: #f9f9f9;
+  margin: 10px auto;
+}
+.down_list li {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 5px;
+  margin: 0 5px;
+}
+.down_list li .down_listNumber {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  background: teal;
+  text-align: center;
+  color: white;
+}
+.down_list li .down_img {
+  width: 39%;
+}
+.down_list li .down_img img {
+  width: 100%;
+}
+.down_list li .down_text {
+  width: 80%;
+  display: inline-block;
+  font-size: 12px;
+}
+.down_list li .down_Tj {
+  font-size: 16px;
+  color: red;
+  font-weight: 600;
+}
+.dsp_none_down {
+  display: none;
+}
+.dsp_block_down {
+  vertical-align: top;
+  display: inline-block;
+}

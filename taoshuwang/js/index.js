@@ -14,7 +14,7 @@ $(() => {
         })
         let oLi_body_main = arr.map((els, index) => {
             let oLi = els.box.map(els2 => {
-                    return `<li class="book_obj">
+                return `<li class="book_obj">
                       <figure>
                       <aside class="store">
                       <span>${els2.label_tj}折</span>
@@ -24,8 +24,7 @@ $(() => {
                       <figcaption>￥${els2.new_price}</figcaption>
                       </figure>
                 </li>`
-                }).join("")
-                /* console.log(oLi_body_main); */
+            }).join("")
             return `<ul class="${index==0?("artc_body_ul z_block"):"artc_body_ul"}">${oLi}</ul>`
         }).join("");
         $(`#${addTitelname} .artc_body`).append(oLi_body_main);
@@ -47,4 +46,5 @@ $(() => {
             /*  resolve(); */
         }
     })
+
 })

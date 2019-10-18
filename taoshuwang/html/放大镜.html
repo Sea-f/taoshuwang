@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            height: 2000px;
+        }
+        
+        .imgbox {
+            width: 450px;
+            height: 450px;
+            border: solid 1px #2F0;
+            margin: 0 auto;
+            position: relative;
+            /* box-sizing: border-box; */
+        }
+        
+        .minImg,
+        .minImg img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .maxImg {
+            width: 355.55px;
+            height: 355.55px;
+            /* height: 500px;
+            width: 500px; */
+            overflow: hidden;
+            border: 1px solid red;
+            position: absolute;
+            /*right: -450px;*/
+            left: 450px;
+            box-sizing: border-box;
+            top: 0;
+        }
+        
+        .img-mask {
+            width: 200px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+        }
+        
+        .maxImg img {
+            width: 200%;
+            height: 200%;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgbox">
+        <div class="minImg">
+            <img src="../img/index_banner.jpg">
+            <div class="img-mask" style="display:none"></div>
+        </div>
+        <div class="maxImg" style="display:none">
+            <img src="../img/index_banner.jpg">
+        </div>
+    </div>
+    <script>
+        var imgBox = document.querySelector('.imgbox');
+        var minBox = document.querySelector('.minImg');
+        var minImg = document.querySelector('.minImg img');
+        var mask = document.querySelector('.img-mask');
+        var maxBox = document.querySelector('.maxImg');
+        var maxImg = document.querySelector('.maxImg img');
+
+        minBox.onmouseenter = function() {
+            mask.style.display = "block"
+            maxBox.style.display = "block"
+        }
+        minBox.onmousemove = function(e) {
+            e = e || window.event
+            var maskX = e.pageX - imgBox.offsetLeft - mask.offsetWidth / 2
+            var maskY = e.pageY - imgBox.offsetTop - mask.offsetHeight / 2
+            var maxX = minBox.offsetWidth - mask.offsetWidth
+            var maxY = minBox.offsetHeight - mask.offsetHeight
+            if (maskX >= maxX) maskX = maxX
+            if (maskY >= maxY) maskY = maxY
+            if (maskX <= 0) maskX = 0
+            if (maskY <= 0) maskY = 0
+            mask.style.left = maskX + "px"
+            mask.style.top = maskY + "px"
+            var maxw = (mask.offsetLeft / (minBox.offsetWidth - mask.offsetWidth)) * (maxImg.offsetWidth - maxBox.offsetWidth)
+            var maxh = (mask.offsetTop / (minBox.offsetHeight - mask.offsetHeight)) * (maxImg.offsetHeight - maxBox.offsetHeight)
+            maxImg.style.left = -maxw + "px"
+            maxImg.style.top = -maxh + "px"
+        }
+        minBox.onmouseleave = function() {
+            mask.style.display = "none"
+            maxBox.style.display = "none"
+        }
+    </script>
+</body>
+
+</html>

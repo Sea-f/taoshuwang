@@ -6,6 +6,7 @@ $(() => {
             url: "../server/getPageCount.php",
             dataType: "json",
             success: (data) => {
+
                 let res = "";
                 for (let i = 0; i < data.count; i++) {
                     res += `<a href="javascript:;">${i + 1}</a>`
@@ -30,16 +31,17 @@ $(() => {
             url: "../server/getGoodsData.php",
             data: `page=${page}&sortType=${type}`,
             dataType: "json",
-            success: (data) => renderUI(data)
+            success: (data) => {
+
+                renderUI(data)
+            }
         });
     }
 
     function renderUI(data) {
-        console.log(data);
-
         let html = data.map((ele) => {
             return `
-            <li class="book_obj">
+            <li class="book_obj" data-id="${ele.id}">
             <figure>
                 <aside class="store">
                 <span>${ele.label_tj}折</span>
@@ -47,9 +49,8 @@ $(() => {
                 <img src="${ele.src}"/>
                 <figcaption>${ele.title.substr(0,15)}</figcaption>
                 <figcaption>￥${ele.price}</figcaption>
-                </figure>
-        </li>
-                
+            </figure>
+            </li>   
             `
         }).join("");
         $(".box-list").html(html);
@@ -59,6 +60,11 @@ $(() => {
     $("#page").on("click", "a", function() {
         getDataWithPage($(this).text());
         $(this).addClass("active").siblings().removeClass("active");
+    })
+    $(".box-list").on("click", ".book_obj", function() {
+        console.log($(this).attr("data-id"));
+        let id = $(this).attr("data-id");
+        window.location.href = `../html/page_shop.html?id=${id}`;
     })
 
     /* 处理排序 */

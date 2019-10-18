@@ -1,0 +1,45 @@
+.imgbox {
+    width: 360px;
+    height: 360px;
+    display: inline-block;
+    /*     border: solid 1px #2F0; */
+    vertical-align: top;
+    position: relative;
+
+    /* box-sizing: border-box; */
+    .minImg,
+    .minImg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .maxImg {
+        width: 280px;
+        height: 280px;
+        /* height: 500px;
+    width: 500px; */
+        overflow: hidden;
+        border: 1px solid red;
+        position: absolute;
+        /*right: -450px;*/
+        left: 360px;
+        box-sizing: border-box;
+        top: 0;
+    }
+
+    .maxImg img {
+        width: 200%;
+        height: 200%;
+        position: absolute;
+    }
+
+    .img-mask {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, .5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+    }
+}

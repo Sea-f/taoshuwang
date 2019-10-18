@@ -1,0 +1,38 @@
+#page {
+  width: 1200px;
+  margin: 0 auto;
+}
+#page #icon_left {
+  width: 240px;
+  display: inline-block;
+  vertical-align: top;
+}
+#page .dbbox {
+  width: 400px;
+  display: inline-block;
+}
+#page .detail_box {
+  display: inline-block;
+  vertical-align: top;
+  width: 940px;
+  background: #ffffff;
+}
+#page .detail_box .page_shop_main {
+  display: inline-block;
+}
+#page .detail_box .page_shop_main p {
+  width: 360px;
+  text-align: center;
+}
+#page .detail_box .page_shop_main p:nth-of-type(3) {
+  font-size: 28px;
+  font-weight: 600;
+  color: red;
+}
+#page .detail_box .page_shop_main p a {
+  color: black;
+  font-size: 30px;
+}
+#page .wo666 {
+  display: inline-block;
+}

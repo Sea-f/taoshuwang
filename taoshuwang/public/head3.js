@@ -1,7 +1,7 @@
 $(() => {
             let nav1_main = `<ul class="nav1_body_1">
-    <li id="href_list"><a href="list.html">全部图书分类</a><ul id="two_nav"></ul></li>
-    <li>首页</li>
+    <li id="href_list"><a href="../html/list.html">全部图书分类</a><ul id="two_nav"></ul></li>
+    <li><a href="../html/index.html">首页</a></li>
     <li>阅读卡兑换专区</li>
     <li>专卖场</li>
     <li>淘书会</li>

@@ -14,8 +14,18 @@
     <script src="../js/index.js"></script>
     <script src="../js/index_lunbo.js"></script>
     <script src="../js/index_new_book.js"></script>
+    <script src="../public/banner.js"></script>
+    <script src="../public/down_list.js"></script>
+    <script>
+        window.onload = function() {
 
+        }
+        $(() => {
+            addBanner("#header", "../img/index_banner.jpg");
+            addDownList("#head_vx", "../server/index_new_book.php");
 
+        })
+    </script>
     <link rel="stylesheet" href="../public/every.css">
     <link rel="stylesheet" href="../less/head1.css">
     <link rel="stylesheet" href="../less/head2.css">
@@ -23,6 +33,8 @@
     <link rel="stylesheet" href="../less/footer.css">
     <link rel="stylesheet" href="../less/index.css">
     <link rel="stylesheet" href="../css/index_lunbo.min.css">
+    <link rel="stylesheet" href="../less/banner.css">
+    <link rel="stylesheet" href="../less/down_list.css">
     <style>
         body,
         html {
@@ -38,6 +50,7 @@
 </head>
 
 <body>
+
     <div id="page">
         <section id="main_head">
             <div class="new_book">
@@ -53,18 +66,17 @@
                 <div id="head_vx">
                     <img src="../img/index_vx.png" alt="">
                 </div>
-                <ul class="recom">
-
-                </ul>
             </aside>
         </section>
         <section id="main_top">
-            <script src="../js/index_windos.js"></script>
+
         </section>
         <section id="main_rand">
-            <script src="../js/index_windos.js"></script>
+
         </section>
     </div>
+
 </body>
+
 
 </html>

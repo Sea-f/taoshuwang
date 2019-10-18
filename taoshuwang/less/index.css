@@ -17,13 +17,13 @@
   text-align: center;
 }
 #page #main_head .main_head_right {
+  overflow: hidden;
   display: block;
   position: absolute;
   height: 100%;
   right: 0px;
   top: 0px;
   width: 215px;
-  background: #c7754f;
 }
 #page #main_head .main_head_right .head_new {
   width: 100%;
@@ -74,6 +74,9 @@
   width: 160px;
   height: 220px;
   margin: 10px 10px 0 ;
+}
+.book_obj a {
+  color: black;
 }
 .book_obj aside {
   display: block;

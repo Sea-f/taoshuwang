@@ -5,18 +5,15 @@
   }
   
   .box {
-      width: 1200px;
+      width: 1300px;
+      height: 100%;
       /* border: 1px solid #000; */
       margin: 10px auto;
-      padding: 10px;
-      box-shadow: darkgrey 0px 0px 5px 5px;
-      /* border: 1px solid rgb(117, 117, 117); */
   }
   
   .box-list {
       width: 100%;
-      text-align: center;
-      margin-bottom: 10px;
+      height: 500px;
   }
   /* .btn-class {
       width: 400px;
@@ -25,7 +22,7 @@
   } */
   
   .btn-class span {
-      width: 140px;
+      width: 150px;
       height: 35px;
       line-height: 35px;
       border: 1px solid #000;
@@ -35,7 +32,7 @@
   
   .item {
       margin: 5px;
-      width: 19%;
+      width: 240px;
       height: 350px;
       border: 1px solid #efefef;
       float: left;
@@ -113,10 +110,56 @@
       color: #FFF;
       /* border-color: #09F */
   }
-  /*   .page .active {
+  
+  .page .active {
       background: #CCC
-  } */
+  }
   
   .page a:active {
       opacity: .8
+  }
+  
+  .cart {
+      height: 160px;
+      width: 30px;
+      text-align: center;
+      color: #fff;
+      position: fixed;
+      right: 0;
+      top: 50%;
+      margin-top: -50px;
+      background: #000;
+      /* border: 1px solid #000; */
+  }
+  
+  .cart-icon {
+      width: 20px;
+      height: 20px;
+      margin-top: 10px;
+  }
+  
+  .cart_total {
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      color: #fff;
+      background: red;
+      border-radius: 10px;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 8px;
+  }
+  
+  .addCart {
+      border: 1px solid #ccc;
+      width: 120px;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 100px;
+      text-align: center
+  }
+  
+  .addCart:hover {
+      border: 1px solid red;
+      color: red;
   }
