@@ -2,7 +2,7 @@
 # 01-先连接数据库
 /* echo 3; */
 $db = mysqli_connect("127.0.0.1","root","","taoshuwang");
-
+mysqli_query($db,"set names 'utf8'");
 # 获取参数
 $page = ($_REQUEST["page"] -1 ) * 63;
 $type = $_REQUEST["sortType"];

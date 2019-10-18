@@ -1,40 +1,83 @@
-#page{
+#page {
     width: 1200px;
     margin: 0 auto;
+
     // background:red;
-    #icon_left{
+    #icon_left {
         width: 240px;
         // background: turquoise;
         display: inline-block;
         vertical-align: top;
     }
-    .dbbox{
+
+    .dbbox {
         width: 400px;
         display: inline-block;
     }
-    .detail_box{
+
+    .detail_box {
         display: inline-block;
         vertical-align: top;
         width: 940px;
-        background: rgb(255,255,255);
-        .page_shop_main{
+        background: rgb(255, 255, 255);
+
+        .page_shop_main {
             display: inline-block;
-            p{
-                width:360px;
+
+            p {
+                width: 360px;
                 text-align: center;
-                &:nth-of-type(3){
+
+                &:nth-of-type(3) {
                     font-size: 28px;
                     font-weight: 600;
                     color: red;
                 }
-                a{
+
+                a {
                     color: black;
                     font-size: 30px;
                 }
             }
         }
+
     }
-     .wo666 {
-            display: inline-block;
+
+    #add_car_box {
+        width: 100%;
+        text-align: center;
+
+        #add_car,
+        aside {
+            width: 60%;
+            text-align: center;
+            margin: 5px auto;
+
+            button {
+                width: 60px;
+                height: 30px;
+                box-sizing: border-box;
+                padding: 0 5px;
+                font-size: 18px;
+                text-align: center;
+                margin: 0 15px;
+            }
+
         }
+
+        #add_car {
+            border: 1px solid rgb(117, 117, 117);
+            padding: 10px 30px;
+            background: coral;
+            color: cornsilk;
+            font-size: 20px;
+            border-radius: 5px;
+            margin: 5px auto;
+        }
+
+    }
+
+    .wo666 {
+        display: inline-block;
+    }
 }

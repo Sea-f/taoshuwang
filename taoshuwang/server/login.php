@@ -3,6 +3,7 @@
 # 001 先连接数据库
 header("Content-Type: text/html; charset=utf-8");
 $db = mysqli_connect("127.0.0.1", "root", "", "taoshuwang");
+mysqli_query($db,"set names 'utf8'");
 # 002 先获取用户提交的用户名和密码
 $username = $_REQUEST["username"];
 $password = $_REQUEST["password"];

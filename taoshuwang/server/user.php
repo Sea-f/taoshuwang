@@ -2,6 +2,7 @@
 header("Content-Type: text/html; charset=utf-8");
 $user = $_REQUEST["username"];
 $db = mysqli_connect("127.0.0.1","root","","taoshuwang");
+mysqli_query($db,"set names 'utf8'");
 $sql = "SELECT * FROM user WHERE username='$user' ";
 $result = mysqli_query($db, $sql);
 // print_r(mysqli_num_rows($result));

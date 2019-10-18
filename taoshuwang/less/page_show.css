@@ -33,6 +33,35 @@
   color: black;
   font-size: 30px;
 }
+#page #add_car_box {
+  width: 100%;
+  text-align: center;
+}
+#page #add_car_box #add_car,
+#page #add_car_box aside {
+  width: 60%;
+  text-align: center;
+  margin: 5px auto;
+}
+#page #add_car_box #add_car button,
+#page #add_car_box aside button {
+  width: 60px;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 0 5px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 15px;
+}
+#page #add_car_box #add_car {
+  border: 1px solid #757575;
+  padding: 10px 30px;
+  background: coral;
+  color: cornsilk;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px auto;
+}
 #page .wo666 {
   display: inline-block;
 }

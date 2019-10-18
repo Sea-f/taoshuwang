@@ -97,7 +97,6 @@ Array.from(oUl).map((els, index) => {
 })
 
 document.querySelectorAll(".goods .img .imgtag");
-
 var arr = []
 var obj = document.querySelectorAll(".ks-waterfall")
 Array.from(obj).map(els => {

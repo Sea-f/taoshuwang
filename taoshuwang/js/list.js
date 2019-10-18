@@ -47,7 +47,7 @@ $(() => {
                 <span>${ele.label_tj}折</span>
                 </aside>
                 <img src="${ele.src}"/>
-                <figcaption>${ele.title.substr(0,15)}</figcaption>
+                <figcaption>${ele.title}</figcaption>
                 <figcaption>￥${ele.price}</figcaption>
             </figure>
             </li>   
@@ -61,8 +61,7 @@ $(() => {
         getDataWithPage($(this).text());
         $(this).addClass("active").siblings().removeClass("active");
     })
-    $(".box-list").on("click", ".book_obj", function() {
-        console.log($(this).attr("data-id"));
+    $(".box-list").on("click", ".book_obj", function() {;
         let id = $(this).attr("data-id");
         window.location.href = `../html/page_shop.html?id=${id}`;
     })
