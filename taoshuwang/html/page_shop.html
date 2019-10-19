@@ -25,7 +25,9 @@
     <link rel="stylesheet" href="../less/page_show.css">
     <link rel="stylesheet" href="../less/glass.css">
     <link rel="stylesheet" href="../less/down_list.css">
-    <title>Document</title>
+    <title>
+        我真是嗨到不行！！！
+    </title>
     <style>
 
     </style>
@@ -86,42 +88,51 @@
                         </p>
                     </div>`
                 $(".page_shop_main").append(oPage);
-            }
-        })
-        $("body").on("click", "button", function() {
-            switch (this.id) {
-                case "add":
-                    if (Number($("#amount_math").text()) < 999 && Number($("#amount_math").text()) >= 0) {
-                        $("#amount_math").text(Number($("#amount_math").text()) + 1);
-                        break;
-                    } else {
-                        break;
+                $("body").on("click", "button", function() {
+                    switch (this.id) {
+                        case "add":
+                            if (Number($("#amount_math").text()) < 999 && Number($("#amount_math").text()) >= 0) {
+                                $("#amount_math").text(Number($("#amount_math").text()) + 1);
+                                break;
+                            } else {
+                                break;
+                            }
+                        case "reduce":
+                            if (Number($("#amount_math").text()) <= 999 && Number($("#amount_math").text()) > 0) {
+                                $("#amount_math").text(Number($("#amount_math").text()) - 1);
+                                break;
+                            } else {
+                                break;
+                            }
+                        case "add_car":
+                            $.ajax({
+                                type: "post",
+                                url: "../server/add_car.php",
+                                data: {
+                                    math: Number($("#amount_math").text()),
+                                    id: id,
+                                    price: data[0].price,
+                                    old_price: data[0].old_price,
+                                    label_tj: data[0].label_tj,
+                                    title: data[0].title,
+                                    href: data[0].href,
+                                    src: data[0].src
+                                },
+                                success: function(res) {
+                                    if (res) {
+                                        window.location = "../html/cart.html";
+                                    } else {
+                                        alert("发生未知错误，请联系管理员");
+                                    }
+                                }
+                            })
+                            break;
+                        default:
+                            break;
                     }
-                case "reduce":
-                    if (Number($("#amount_math").text()) <= 999 && Number($("#amount_math").text()) > 0) {
-                        $("#amount_math").text(Number($("#amount_math").text()) - 1);
-                        break;
-                    } else {
-                        break;
-                    }
-                case "add_car":
-                    $.ajax({
-                        type: "post",
-                        url: "../server/add_car.php",
-                        data: {
-                            math: Number($("#amount_math").text()),
-                            id: id
-                        },
-                        success: function(res) {
 
-                        }
-                    })
-                    break;
-
-                default:
-                    break;
+                })
             }
-
         })
     </script>
 </body>

@@ -7,7 +7,7 @@ $(() => {
         <li class="mytaoshu_top"><a href="#">我的订单</a></li>
         <li class="mytaoshu_top"><a href="#">我的地址</a></li></ul>
     </li>
-    <li id="shopcar"><a href="#"><s></s>购物车<span id="shopcar_math">0</span>件</a></li>
+    <li id="shopcar"><a href="../html/cart.html"><s></s>购物车<span id="shopcar_math">0</span>件</a></li>
     <li id="favorite"><a href="#">收藏夹</a></li>
     <li id="proxy"><a href="#">团购批发</a></li>
     <li id="help"><a href="#">帮助中心</a></li>
