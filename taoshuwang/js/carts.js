@@ -133,4 +133,20 @@ $(() => {
             }
         })
     })
+
+    var cheAll = $(".whole_check");
+    var ches = $(".order_content :checkbox");
+    cheAll.on("click", function() {
+            ches.prop("checked", $(this).prop("checked"))
+        })
+        // $("body").on("click", ".whole_check", function() {
+        //         let a = document.querySelector(".whole_check").checked
+        //         console.log(a);
+
+
+    //     })
+    /* $(".whole_check").click(function() {
+        console.log($(this).checked);
+
+    }) */
 })

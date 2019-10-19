@@ -2,7 +2,7 @@ $(() => {
 
     let head1_left = `<p class="login-info">爱书的朋友，欢迎来淘书！<a href="../html/login.html">请登录</a><a href="../html/register.html">免费注册</a></p>`;
 
-    let head1_rigth_main = `<li><a href="#">首页</a> </li>
+    let head1_rigth_main = `<li><a href="../html/index.html">首页</a> </li>
     <li class="mytaoshu menu-item">我的淘书<span id="onleaver_xuanzhuan">ˇ</span><ul>
         <li class="mytaoshu_top"><a href="#">我的订单</a></li>
         <li class="mytaoshu_top"><a href="#">我的地址</a></li></ul>
